@@ -4,7 +4,8 @@ return [
     'home' => 'home',
     'about' => 'about',
     'menu' => 'menu',
+    'events' => 'events',
     'blog' => 'blog',
     'contact' => 'contact',
-    'lang' => 'zh'
+    'lang' => '中文'
 ];

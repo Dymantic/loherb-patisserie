@@ -8,7 +8,8 @@ class MenuController extends Controller
 {
     public function index()
     {
-        return view('front.menu.index');
+        $menu = data('menu');
+        return view('front.menu.index', ['menu' => $menu]);
     }
 
     public function mains()
