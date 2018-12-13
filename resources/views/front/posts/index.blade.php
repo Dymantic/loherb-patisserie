@@ -1,20 +1,20 @@
 @extends('front.base', ['bodyClass' => 'md:pt-12'])
 
 @section('title')
-    {{ trans('journal.title') }}
+    {{ trans('blog.title') }}
 @endsection
 
 @section('head')
     @include('front.partials.ogmeta', [
         'ogImage' => '',
-        'ogTitle' => trans('journal.title'),
-        'ogDescription' => trans('journal.description')
+        'ogTitle' => trans('blog.title'),
+        'ogDescription' => trans('blog.description')
     ])
 @endsection
 
 @section('content')
-    @component('front.components.info-section', ['title' => trans('journal.index.heading')])
-        <p class="mt-8 body-text text-green-main">{{ trans('journal.index.subheading') }}</p>
+    @component('components.info-section', ['title' => trans('blog.index.heading')])
+        <p class="mt-8 body-text text-purple">{{ trans('blog.index.subheading') }}</p>
     @endcomponent
 
     <div class="px-4 py-12">

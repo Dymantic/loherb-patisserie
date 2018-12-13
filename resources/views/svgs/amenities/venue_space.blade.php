@@ -1,0 +1,1 @@
+<svg height="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 27"><g data-name="Layer 2"><g data-name="Layer 1" fill="none" stroke="#5d2b46" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"><path d="M1.5 5.65h24M1.5 21.35h24M21.35 1.5v24M5.65 1.5v24"/></g></g></svg>

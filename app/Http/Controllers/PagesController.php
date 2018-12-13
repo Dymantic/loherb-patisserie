@@ -29,5 +29,10 @@ class PagesController extends Controller
         return view('front.about.page');
     }
 
+    public function events()
+    {
+        return view('front.events.page', ['event_images' => data('events.slideshow'), 'amenities' => data('events.amenities')]);
+    }
+
 
 }

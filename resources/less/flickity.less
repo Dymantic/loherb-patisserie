@@ -13,6 +13,13 @@
       display: none;
     }
   }
+
+  .flickity-prev-next-button {
+    @media screen and (max-width: 576px) {
+      background-size: 25%;
+      background-position: center;
+    }
+  }
   .flickity-prev-next-button.next {
     background-image: url(./../images/utils/right_arrow.svg);
   }
@@ -47,5 +54,17 @@
     .flickity-page-dots {
       bottom: -40px;
     }
+  }
+
+  &.inner-dots {
+    .flickity-page-dots {
+      bottom: 20px;
+    }
+  }
+}
+
+.slide-show-container {
+  @media screen and (max-width: 576px) {
+    padding: 0;
   }
 }

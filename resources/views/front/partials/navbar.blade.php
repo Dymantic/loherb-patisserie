@@ -15,10 +15,10 @@
             </a>
         </div>
         <div class="flex items-center my-2 md:my-0 nav-link-box">
-            <a class="flex items-center nav-link text-gold" tabindex="4" href="{{ localUrl('/book') }}">{{ trans('navbar.events') }}</a>
+            <a class="flex items-center nav-link text-white" tabindex="4" href="{{ localUrl('/events') }}">{{ trans('navbar.events') }}</a>
         </div>
         <div class="flex items-center my-2 md:my-0 nav-link-box">
-            <a class="flex items-center nav-link text-white" tabindex="5" href="{{ localUrl('/journal') }}">{{ trans('navbar.blog') }}</a>
+            <a class="flex items-center nav-link text-white" tabindex="5" href="{{ localUrl('/blog') }}">{{ trans('navbar.blog') }}</a>
         </div>
         <div class="flex items-center my-2 md:my-0 nav-link-box">
             <a class="flex items-center nav-link text-white" tabindex="5" href="{{ localUrl('/contact') }}">{{ trans('navbar.contact') }}</a>

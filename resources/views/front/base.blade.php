@@ -22,9 +22,13 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
 
-@yield('content')
-@include('front.partials.footer')
-@include('front.partials.navbar')
+
+<div id="app">
+    @yield('content')
+    @include('front.partials.footer')
+    @include('front.partials.navbar')
+</div>
+
 <script src="{{ mix("js/app.js") }}"></script>
 <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;

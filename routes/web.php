@@ -14,6 +14,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
     Route::get('/', 'PagesController@home');
 
     Route::get('about', 'PagesController@about');
+    Route::get('events', 'PagesController@events');
 
     Route::get('menu', 'MenuController@index');
     Route::get('menu/mains', 'MenuController@mains');

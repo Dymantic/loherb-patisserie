@@ -8,7 +8,8 @@ import throttle from "lodash.throttle";
 
 require('./bootstrap');
 import "flickity";
-window.Vue = require('vue');
+const Vue = require('vue');
+Vue.component('contact-form', require('./components/ContactForm'));
 
 
 /**

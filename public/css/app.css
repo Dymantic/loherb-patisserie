@@ -1033,6 +1033,13 @@ https://flickity.metafizzy.co
   display: none;
 }
 
+@media screen and (max-width: 576px) {
+  .slide-show .flickity-prev-next-button {
+    background-size: 25%;
+    background-position: center;
+  }
+}
+
 .slide-show .flickity-prev-next-button.next {
   background-image: url(/images/right_arrow.svg?dbb0463df247d6139f45560db25330d7);
 }
@@ -1059,6 +1066,16 @@ https://flickity.metafizzy.co
 
 .slide-show.low-dots .flickity-page-dots {
   bottom: -40px;
+}
+
+.slide-show.inner-dots .flickity-page-dots {
+  bottom: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .slide-show-container {
+    padding: 0;
+  }
 }
 
 .home-banner {
@@ -1099,6 +1116,12 @@ https://flickity.metafizzy.co
 
 .about-banner-2 {
   background-image: url(/images/dish_1.jpg?08b561f25ba52c9b1dd081cba49408b2);
+  background-size: cover;
+  background-position: center;
+}
+
+.events-bottom-banner {
+  background-image: url(/images/flowers.jpeg?cea0ca038abe31350cf38d832d94f7b0);
   background-size: cover;
   background-position: center;
 }
@@ -6604,6 +6627,10 @@ https://flickity.metafizzy.co
 
 .w-48 {
   width: 12rem;
+}
+
+.w-56 {
+  width: 14rem;
 }
 
 .w-64 {
@@ -12187,6 +12214,10 @@ svg {
     width: 12rem;
   }
 
+  .sm\:w-56 {
+    width: 14rem;
+  }
+
   .sm\:w-64 {
     width: 16rem;
   }
@@ -17759,6 +17790,10 @@ svg {
 
   .md\:w-48 {
     width: 12rem;
+  }
+
+  .md\:w-56 {
+    width: 14rem;
   }
 
   .md\:w-64 {
@@ -23335,6 +23370,10 @@ svg {
     width: 12rem;
   }
 
+  .lg\:w-56 {
+    width: 14rem;
+  }
+
   .lg\:w-64 {
     width: 16rem;
   }
@@ -28907,6 +28946,10 @@ svg {
 
   .xl\:w-48 {
     width: 12rem;
+  }
+
+  .xl\:w-56 {
+    width: 14rem;
   }
 
   .xl\:w-64 {
