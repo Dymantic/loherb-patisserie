@@ -7,7 +7,7 @@
     @endcomponent
     <section>
         <div class="reg-section-space slide-show-container">
-            <div data-flickity
+            <div data-flickity='{"imagesLoaded": true}'
                  class="w-full max-w-2xl md:w-4/5 mx-auto slide-show inner-dots">
                 @foreach($event_images as $image)
                     <picture class="w-full block mx-auto">
