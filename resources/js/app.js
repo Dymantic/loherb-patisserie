@@ -59,6 +59,7 @@ window.addEventListener('DOMContentLoaded', () => {
     e.addEventListener('click', (ev) => {
         ev.preventDefault();
         const target = ev.target.getAttribute('data-jump-target') || '#app';
-        jump(target);
+        const offset = parseInt(ev.target.getAttribute('data-jump-offset')) || 0;
+        jump(target, {offset});
     });
 });

@@ -1137,6 +1137,13 @@ https://flickity.metafizzy.co
   }
 }
 
+.menu-sub-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 3rem;
+  background: white;
+}
+
 .list-reset {
   list-style: none;
   padding: 0;

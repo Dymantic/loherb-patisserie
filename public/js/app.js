@@ -22221,7 +22221,8 @@ window.addEventListener('DOMContentLoaded', function () {
     e.addEventListener('click', function (ev) {
         ev.preventDefault();
         var target = ev.target.getAttribute('data-jump-target') || '#app';
-        Object(__WEBPACK_IMPORTED_MODULE_3_jump_js__["a" /* default */])(target);
+        var offset = parseInt(ev.target.getAttribute('data-jump-offset')) || 0;
+        Object(__WEBPACK_IMPORTED_MODULE_3_jump_js__["a" /* default */])(target, { offset: offset });
     });
 });
 
