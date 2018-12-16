@@ -12,7 +12,7 @@
     <section class="section-height about-banner-2"></section>
     @component('components.info-section', ['title' => trans('about.section_three.heading')])
         <p class="text-center text-purple">{{ trans('about.section_three.content') }}</p>
-        <a href=""
+        <a href="{{ localUrl('/contact') }}"
            class="text-link text-purple mt-12">{{ trans('about.section_three.link_text') }} &rarr;</a>
     @endcomponent
 @endsection

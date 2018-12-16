@@ -1,4 +1,4 @@
-<section class="bg-pinky-grey max-w-xl reg-section-space flex flex-col items-center mx-auto">
+<section id="dine" class="bg-pinky-grey max-w-xl reg-section-space flex flex-col items-center mx-auto">
     <p class="font-sans text-navy mb-8 uppercase">Dine</p>
     <p class="font-heading text-purple capitalize">{{ $menu['dine']['starters']['title'] }}</p>
     @foreach($menu['dine']['starters']['courses'] as $course)

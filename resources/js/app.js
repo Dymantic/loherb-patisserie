@@ -9,6 +9,7 @@ import throttle from "lodash.throttle";
 require('./bootstrap');
 import "flickity";
 import "flickity-imagesloaded";
+import jump from "jump.js";
 const Vue = require('vue');
 Vue.component('contact-form', require('./components/ContactForm'));
 
@@ -54,3 +55,10 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+[...document.querySelectorAll('[data-jump-target]')].forEach(e => {
+    e.addEventListener('click', (ev) => {
+        ev.preventDefault();
+        const target = ev.target.getAttribute('data-jump-target') || '#app';
+        jump(target);
+    });
+});

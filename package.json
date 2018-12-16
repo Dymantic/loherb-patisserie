@@ -26,6 +26,7 @@
         "@dymantic/vue-forms": "^1.1.0",
         "flickity": "^2.1.2",
         "flickity-imagesloaded": "^2.0.0",
+        "jump.js": "^1.0.2",
         "lodash.throttle": "^4.1.1",
         "tailwindcss": "^0.6.5"
     }
