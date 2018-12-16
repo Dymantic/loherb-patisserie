@@ -5,7 +5,7 @@ return [
     'about' => 'about',
     'menu' => 'menu',
     'events' => 'events',
-    'blog' => 'blog',
+    'blog' => 'journal',
     'contact' => 'contact',
     'lang' => '中文'
 ];

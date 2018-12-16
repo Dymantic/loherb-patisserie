@@ -6,7 +6,7 @@
             <p class="text-purple">{{ $option }}</p>
         @endforeach
         <p class="mt-4 font-heading text-purple">{{ $section['price'] }}</p>
-        <div class="w-48 border-b border-purple my-8"></div>
+        <div class="w-48 md:border-b border-purple my-8"></div>
     @endforeach
 </section>
 @include('front.menu.image-bar', ['images' => $menu['beverages']['images']])

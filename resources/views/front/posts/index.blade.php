@@ -14,7 +14,7 @@
 
 @section('content')
     @component('components.info-section', ['title' => trans('blog.index.heading')])
-        <p class="mt-8 body-text text-purple">{{ trans('blog.index.subheading') }}</p>
+        <p class="mt-8 body-text text-center text-purple">{{ trans('blog.index.subheading') }}</p>
     @endcomponent
 
     <div class="px-4 py-12">
