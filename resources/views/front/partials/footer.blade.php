@@ -1,4 +1,4 @@
-<footer class="p-8 pt-12 bg-navy">
+<footer class="p-8 pt-12 footer">
     <div class="text-center">
         @include('svgs.logos.cuisine', ['svgClass' => 'h-16'])
     </div>

@@ -2,8 +2,8 @@
 
 @section('content')
     <div class="h-12"></div>
-    @component('components.info-section-light', ['title' => 'The Menu'])
-        <p class="text-purple text-center">Peruse our famous menu and start deciding what to feast on.</p>
+    @component('components.info-section-light', ['title' => trans('menu.intro.heading')])
+        <p class="text-purple text-center">{{ trans('menu.intro.content') }}</p>
     @endcomponent
     <div class="flex justify-around md:justify-center mx-auto items-center p-4 menu-sub-nav">
         <a href="" data-jump-target="#dine" data-jump-offset="-50"

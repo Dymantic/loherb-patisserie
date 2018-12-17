@@ -1048,6 +1048,12 @@ https://flickity.metafizzy.co
   background-image: url(/images/left_arrow.svg?d83fcf76f0357c49addd07a9e6668f4a);
 }
 
+@media screen and (max-width: 576px) {
+  .slide-show .flickity-page-dots .dot {
+    margin: 0 4px;
+  }
+}
+
 .slide-show.dark .flickity-prev-next-button.next {
   background-image: url(/images/dark_right_arrow.svg?fb563f53ccdf1ec87991d33f21aeedc9);
 }
@@ -6746,6 +6752,11 @@ https://flickity.metafizzy.co
 
 body.nav-open {
   overflow-y: hidden;
+}
+
+.footer {
+  background: url(/images/footer_pattern.jpg?0f14af54c9d58f459db615c510a2acac);
+  background-size: 8px auto;
 }
 
 svg {

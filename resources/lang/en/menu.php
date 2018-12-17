@@ -1,7 +1,12 @@
 <?php
 
 return [
-    'title' => 'Hamburgers and hotdogs',
+    'title' => 'Loherb Cuisine menu',
+
+    'intro' => [
+        'heading' => 'The Menu',
+        'content' => 'Peruse our famous menu and start deciding what to feast on.'
+    ],
 
     'sections' => [
         'appetizers' => 'Appetizers',

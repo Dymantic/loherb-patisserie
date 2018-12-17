@@ -6,13 +6,13 @@ return [
     'banner' => [],
     'elegance' => [
         'heading' => 'Elegance & Taste',
-        'content' => 'Loherb Cuisine offers a high-end culinary experience, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi blanditiis corporis exercitationem labore pariatur porro temporibus? Ab deleniti distinctio dolorum est in nihil numquam possimus praesentium quo ratione, recusandae saepe.',
+        'content' => 'Loherb Cuisine is a high-end culinary experience where space, elegance and fine food come together to give you a wonderfully unique time. Tucked away away in Yilan, Taiwan, amongst a natural environment that offers splendid views and scenery. We offer a full set menu including breakfast, lunch and our sensational dinner menu, so feel free to visit us at any time of the day.',
         'link_text' => 'See Menu'
     ],
     'dish_banner' => [],
     'events' => [
         'heading' => 'Let us host your dream event',
-        'content' => 'Loherb Cuisine is the ideal place to host your wedding, birthday, conference or family get-together. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi blanditiis corporis exercitationem labore pariatur porro temporibus? Ab deleniti distinctio dolorum est in nihil numquam possimus praesentium quo ratione, recusandae saepe.',
+        'content' => 'Loherb Cuisine is the perfect place to host an event, whether you’re looking for a dream wedding venue, a birthday party, a family reunion or a business function, we’ve got you covered. With ample space and seating for up to 60 people, our diverse menu to suit your needs and a space of natural elegance and sophistication.',
         'link_text' => 'Book Venue'
     ],
     'wedding_banner' => [
@@ -28,7 +28,7 @@ return [
     ],
     'villa' => [
         'heading' => 'Loherb Villa',
-        'content' => 'Loherb Villa is part of the Cuisine Restaurant and a delightful place to stay with exquisite rooms, decor and facilities. Make the most of your time by enjoying the Loherb Cuisine and Villa together.',
+        'content' => 'Loherb Villa encompasses Loherb Cuisine restaurant and is equally as impressive. The Villa offers rooms with their own character and charm, perfect for couples and families. Built comfort and ambiance, Loherb Villa includes private hot tubs, king size beds, home theater systems and a sky roof.',
         'link_text' => 'Villa Website'
     ],
     'instagram' => [

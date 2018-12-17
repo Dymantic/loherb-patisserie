@@ -3,7 +3,7 @@
 return [
     'intro' => [
         'heading' => 'Dreams do Come True',
-        'content' => 'Loherb Cuisine caters to all kinds of events, whether it be a dream wedding, a birthday party or a corporate get-together. We can seat up to xx people, provide a full-course meals or light snacks, alcoholic and non-alcoholic drinks, plenty of space for speeches, dancing, and entertainment, and of course the excellent service and atmosphere that Loherb Cuisine is known for.'
+        'content' => 'With its glass walls, brilliant natural light, and small garden centrally located in it, the Loherb Cuisine space is a natural wonderland that can host all kinds of events and make them look and feel remarkable, elegant and comfortable for everyone. Weddings, birthdays and corporate get-togethers will feel magical, personal and professional.'
     ],
     
     'venue' => [
