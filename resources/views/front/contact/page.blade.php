@@ -25,6 +25,6 @@
         <p class="text-center">
             <a class="tracking-wide no-underline text-purple" href="">+886-3-959-5685</a>
         </p>
-        <p class="text-center tracking-wide text-purple">{{ trans('footer.address') }}</p>
+        <p class="text-center tracking-wide text-purple">{{ trans('footer.address_full') }}</p>
     </div>
 @endsection
