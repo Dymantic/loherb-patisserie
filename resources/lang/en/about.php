@@ -14,6 +14,6 @@ return [
     'section_three' => [
         'heading' => 'Book your place now',
         'content' => 'Loherb Cuisine is a high-end culinary experience.',
-        'link_text' => 'Book an Event'
+        'link_text' => 'Book Now'
     ]
 ];

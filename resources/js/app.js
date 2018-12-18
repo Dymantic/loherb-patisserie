@@ -63,3 +63,10 @@ window.addEventListener('DOMContentLoaded', () => {
         jump(target, {offset});
     });
 });
+
+if(document.querySelector('[data-banner-jump]')) {
+    document.querySelector('[data-banner-jump]').addEventListener('click', e => {
+        e.preventDefault();
+        jump('.post-banner', {offset: -48});
+    });
+}

@@ -7,4 +7,7 @@
             </div>
         @endforeach
     </div>
+    <div class="text-center mt-8">
+        @include('svgs.icons.scroll_arrows')
+    </div>
 </section>

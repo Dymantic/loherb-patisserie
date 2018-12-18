@@ -22226,6 +22226,13 @@ window.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+if (document.querySelector('[data-banner-jump]')) {
+    document.querySelector('[data-banner-jump]').addEventListener('click', function (e) {
+        e.preventDefault();
+        Object(__WEBPACK_IMPORTED_MODULE_3_jump_js__["a" /* default */])('.post-banner', { offset: -48 });
+    });
+}
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
