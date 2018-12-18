@@ -28,7 +28,7 @@ return [
     ],
     'villa' => [
         'heading' => 'Loherb Villa',
-        'content' => 'Loherb Villa encompasses Loherb Cuisine restaurant and is equally as impressive. The Villa offers rooms with their own character and charm, perfect for couples and families. Built comfort and ambiance, Loherb Villa includes private hot tubs, king size beds, home theater systems and a sky roof.',
+        'content' => 'Loherb Villa encompasses Loherb Cuisine restaurant and is equally as impressive. The Villa offers rooms with their own character and charm, perfect for couples and families. Built for comfort and ambiance, Loherb Villa includes private hot tubs, king size beds, home theater systems and a sky roof.',
         'link_text' => 'Villa Website'
     ],
     'instagram' => [

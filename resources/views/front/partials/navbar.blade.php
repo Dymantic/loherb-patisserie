@@ -1,6 +1,6 @@
 <div class="fixed pin-t w-full flex justify-between items-center h-12 px-4 main-nav bg-purple hover:bg-purple">
     <div>
-        <a href="{{ localUrl("/") }}" tabindex="1" class="flex items-center h-12">
+        <a href="{{ localUrl("/") }}" tabindex="1" class="flex items-center h-12 ml-4">
             @include('svgs.logos.simple')
         </a>
     </div>
