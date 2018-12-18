@@ -26,7 +26,7 @@ return [
     ],
 
     'bookings' => [
-        'prompt' => 'Interested in booking our lovely space an event?',
+        'prompt' => 'Interested in booking our lovely space for an event?',
         'link_text' => 'Book an Event'
     ]
     
