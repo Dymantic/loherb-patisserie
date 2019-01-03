@@ -1,5 +1,17 @@
 @extends('front.base', ['bodyClass' => 'homepage'])
 
+@section('title')
+    {{ trans('homepage.seo.title') }}
+@endsection
+
+@section('head')
+    @include('front.partials.ogmeta', [
+        'ogTitle' => trans('homepage.seo.title'),
+        'ogDescription' => trans('homepage.seo.description'),
+        'ogImage' => ''
+    ])
+@endsection
+
 @section('content')
     @include('front.home.banner')
     @include('front.home.elegance')

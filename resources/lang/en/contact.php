@@ -1,8 +1,11 @@
 <?php
 
 return [
-    'title' => 'Contact Us - Loherb Villa',
-    'description' => 'Loherb Villa offers a unique and luxurious stay in the heart of beautiful Yilan',
+    'seo'=> [
+        'title' => 'Contact Us - Loherb Villa',
+        'description' => 'Loherb Villa offers a unique and luxurious stay in the heart of beautiful Yilan',
+    ],
+
 
     'intro' => [
         'heading' => 'Get in Touch',

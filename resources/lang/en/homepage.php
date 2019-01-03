@@ -3,6 +3,11 @@
 return [
     'title' => 'The home page',
 
+    'seo' => [
+        'title' => 'Loherb Cuisine - Great Food, Spectacular Environment',
+        'description' => 'It is simply the best'
+    ],
+
     'banner' => [],
     'elegance' => [
         'heading' => 'Elegance & Taste',

@@ -1,5 +1,17 @@
 @extends('front.base')
 
+@section('title')
+    {{ trans('events.seo.title') }}
+@endsection
+
+@section('head')
+    @include('front.partials.ogmeta', [
+        'ogTitle' => trans('events.seo.title'),
+        'ogDescription' => trans('events.seo.description'),
+        'ogImage' => ''
+    ])
+@endsection
+
 @section('content')
     <div class="h-12 bg-pinky-grey"></div>
     @component('components.info-section', ['title' => trans('events.intro.heading')])

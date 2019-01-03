@@ -7,70 +7,70 @@ return [
         ['name' => 'menu.sections.desserts', 'url' => 'desserts'],
         ['name' => 'menu.sections.drinks', 'url' => 'drinks'],
     ],
-    
+
     'mains' => [
         'title' => 'menu.mains.title'
     ],
-    
+
     'appetizers' => [
         'title' => 'menu.appetizers.title'
     ],
-    
+
     'desserts' => [
         'title' => 'menu.desserts.title'
     ],
-    
+
     'drinks' => [
         'title' => 'menu.drinks.title'
     ],
 
     'dine' => [
-        'title' => 'dine',
-        'starters' => [
-            'title' => 'starters',
+        'title'     => 'dine',
+        'starters'  => [
+            'title'   => 'menu.dine.starters.title',
             'courses' => [
-                'soup and bread',
-                'shrimp with caviar',
-                'salad and apple vinegar'
+                'menu.dine.starters.soup-and-bread',
+                'menu.dine.starters.shrimp-with-caviar',
+                'menu.dine.starters.salad-and-apple-vinegar',
             ]
         ],
-        'options' => [
+        'options'   => [
             [
-                'title' => 'Classic',
-                'price' => '560',
+                'title'   => 'Classic',
+                'price'   => '560',
                 'choices' => [
-                    'tulip chicken',
-                    'mustard pork',
-                    'vegetable club'
+                    'menu.dine.classic.tulip-chicken',
+                    'menu.dine.classic.mustard-pork',
+                    'menu.dine.classic.vegetable-club'
                 ]
             ],
             [
-                'title' => 'Feast',
-                'price' => '660',
+                'title'   => 'Feast',
+                'price'   => '660',
                 'choices' => [
-                    'Beef Bourguignon',
-                    'Duck with Taro',
-                    'Spicy Salmon'
+                    'menu.dine.feast.beef-bourguignon',
+                    'menu.dine.feast.duck-with-taro',
+                    'menu.dine.feast.spicy-salmon'
                 ]
             ],
             [
-                'title' => 'Premium',
-                'price' => '860',
+                'title'   => 'Premium',
+                'price'   => '860',
                 'choices' => [
-                    'Sicily Seafood',
-                    'Sirlion Steak',
-                    'Lamb with Mint'
+                    'menu.dine.premium.sicily-seafood',
+                    'menu.dine.premium.sirloin-steak',
+                    'menu.dine.premium.lamb-with-mint'
                 ]
             ]
         ],
         'beverages' => [
-            'title' => 'Beverage Choice',
+            'title'   => 'menu.dine.beverages.title',
             'options' => [
-                'Long black',
-                'Milk tea',
-                'Honey Lemon',
-                'Latte',
-                'Kiwi & Berry tea'
+                'long-black',
+                'milk-tea',
+                'honey-lemon',
+                'latte',
+                'kiwi-berry-tea'
             ]
         ],
 
@@ -96,35 +96,35 @@ return [
     ],
 
     'brunch' => [
-        'title' => 'Brunch & Teatime',
+        'title'    => 'Brunch & Teatime',
         'sections' => [
             [
-                'title' => 'Parmesan Sub',
-                'price' => 230,
+                'title'   => 'menu.brunch.subs.title',
+                'price'   => 230,
                 'options' => [
-                    'New Orleans Chicken',
-                    'Tuna with Vegetables',
-                    'Pesto Mushroom',
-                    'Hawaii Ham',
-                    'Smoked Duck'
+                    'menu.brunch.subs.new-orleans-chicken',
+                    'menu.brunch.subs.tuna-with-vegetables',
+                    'menu.brunch.subs.pesto-mushroom',
+                    'menu.brunch.subs.hawaii-ham',
+                    'menu.brunch.subs.smoked-duck',
                 ]
             ],
             [
-                'title' => 'Cake',
-                'price' => 160,
+                'title'   => 'menu.brunch.cakes.title',
+                'price'   => 160,
                 'options' => [
-                    'Matcha',
-                    'Chocolate',
-                    'Cheese',
+                    'menu.brunch.cakes.matcha',
+                    'menu.brunch.cakes.chocolate',
+                    'menu.brunch.cakes.cheese',
                 ]
             ],
             [
-                'title' => 'Cake',
-                'price' => 270,
+                'title'   => 'menu.brunch.waffles.title',
+                'price'   => 270,
                 'options' => [
-                    'Fruit Berries',
-                    'Chocolate',
-                    'Matcha',
+                    'menu.brunch.waffles.fruit-berries',
+                    'menu.brunch.waffles.chocolate',
+                    'menu.brunch.waffles.matcha',
                 ]
             ],
         ],
@@ -136,52 +136,52 @@ return [
     ],
 
     'beverages' => [
-        'title' => 'Beverages',
+        'title'    => 'menu.beverages.title',
         'sections' => [
             [
-                'title' => 'Coffee',
-                'price' => 230,
+                'title'   => 'menu.beverages.coffee.title',
+                'price'   => 230,
                 'options' => [
-                    'Espresso',
-                    'American',
-                    'Latte',
-                    'Rose Latte',
-                    'Burnt Cream Latte',
-                    'Caramel Machiato'
+                    'menu.beverages.coffee.espresso',
+                    'menu.beverages.coffee.american',
+                    'menu.beverages.coffee.latte',
+                    'menu.beverages.coffee.rose-latte',
+                    'menu.beverages.coffee.burnt-cream-latte',
+                    'menu.beverages.coffee.caramel-machiato',
                 ]
             ],
             [
-                'title' => 'Tea',
-                'price' => 160,
+                'title'   => 'menu.beverages.tea.title',
+                'price'   => 160,
                 'options' => [
-                    'Four Seasons Tea',
-                    'Earl Black Tea',
-                    'Iron Buddhism Tea',
-                    'Kiwi & Strawberry Tea',
+                    'menu.beverages.tea.four-seasons-tea',
+                    'menu.beverages.tea.earl-black-tea',
+                    'menu.beverages.tea.iron-buddhism-tea',
+                    'menu.beverages.tea.kiwi-strawberry-tea',
                 ]
             ],
             [
-                'title' => 'Fruit Juice',
-                'price' => 160,
+                'title'   => 'menu.beverages.fruit-juice.title',
+                'price'   => 160,
                 'options' => [
-                    'Honey Lemon',
-                    'Orange',
-                    'Berry Yogurt',
-                    'Kiwi & Pineapple',
+                    'menu.beverages.fruit-juice.honey-lemon',
+                    'menu.beverages.fruit-juice.orange',
+                    'menu.beverages.fruit-juice.berry-yogurt',
+                    'menu.beverages.fruit-juice.kiwi-pineapple',
                 ]
             ],
             [
-                'title' => 'Au Lait',
-                'price' => 160,
+                'title'   => 'menu.beverages.au-lait.title',
+                'price'   => 160,
                 'options' => [
-                    'Caramel Au Lait',
-                    'Chocolate Au Lait',
-                    'Matcha Au Lait',
-                    'Assam Black Tea Au Lait',
+                    'menu.beverages.au-lait.caramel-au-lait',
+                    'menu.beverages.au-lait.chocolate-au-lait',
+                    'menu.beverages.au-lait.matcha-au-lait',
+                    'menu.beverages.au-lait.assam-black-tea-au-lait',
                 ]
             ]
         ],
-        'images' => [
+        'images'   => [
             '/images/menu/beverages/beverages_1.jpg',
             '/images/menu/beverages/beverages_2.jpg',
             '/images/menu/beverages/beverages_3.jpg',
@@ -190,34 +190,34 @@ return [
     ],
 
     'alcohol' => [
-        'title' => 'alcohol',
+        'title' => 'menu.alcohol.title',
 
         'sections' => [
             [
-                'title' => 'Beer',
-                'price' => 160,
+                'title'   => 'menu.alcohol.beer.title',
+                'price'   => 160,
                 'options' => [
-                    'Golden Taiwan Beer'
+                    'menu.alcohol.beer.golden-taiwan-beer'
                 ]
             ],
             [
-                'title' => 'Wine',
-                'price' => 800,
+                'title'   => 'menu.alcohol.wine.title',
+                'price'   => 800,
                 'options' => [
-                    'Bonne Chance Moscato',
-                    'Dominga Chardonnay',
-                    'Dominga Cabernet Sauvignon'
+                    'menu.alcohol.wine.bonne-chance-moscato',
+                    'menu.alcohol.wine.dominga-chardonnay',
+                    'menu.alcohol.wine.dominga-cabernet-sauvignon'
                 ]
             ],
             [
-                'title' => 'Spirits',
-                'price' => 1200,
+                'title'   => 'menu.alcohol.spirits.title',
+                'price'   => 1200,
                 'options' => [
-                    'Glenfiddich Whiskey 12 Years'
+                    'menu.alcohol.spirits.glenfiddich-whiskey'
                 ]
             ]
         ],
-        'images' => [
+        'images'   => [
             '/images/menu/alcohol/alcohol_1.jpg',
             '/images/menu/alcohol/alcohol_2.jpg',
         ]

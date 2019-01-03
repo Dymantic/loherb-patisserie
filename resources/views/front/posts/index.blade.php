@@ -1,14 +1,14 @@
 @extends('front.base', ['bodyClass' => 'md:pt-12'])
 
 @section('title')
-    {{ trans('blog.title') }}
+    {{ trans('blog.seo.title') }}
 @endsection
 
 @section('head')
     @include('front.partials.ogmeta', [
         'ogImage' => '',
-        'ogTitle' => trans('blog.title'),
-        'ogDescription' => trans('blog.description')
+        'ogTitle' => trans('blog.seo.title'),
+        'ogDescription' => trans('blog.seo.description')
     ])
 @endsection
 

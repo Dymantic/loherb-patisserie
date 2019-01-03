@@ -1,8 +1,11 @@
 <?php
 
 return [
-    'title' => 'Blog - Loherb Cuisine',
-    'description' => 'Loherb Cuisine offers a unique and luxurious culinary experience in the heart of beautiful Yilan',
+    'seo' => [
+        'title' => 'Chef\'s journal at Loherb Cuisine',
+        'description' => 'Loherb Cuisine offers a unique and luxurious culinary experience in the heart of beautiful Yilan',
+    ],
+
 
     'index' => [
         'heading' => 'Chef\'s Journal',

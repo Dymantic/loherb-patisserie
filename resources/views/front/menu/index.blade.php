@@ -1,5 +1,17 @@
 @extends('front.base')
 
+@section('title')
+    {{ trans('menu.seo.title') }}
+@endsection
+
+@section('head')
+    @include('front.partials.ogmeta', [
+        'ogTitle' => trans('menu.seo.title'),
+        'ogDescription' => trans('menu.seo.description'),
+        'ogImage' => ''
+    ])
+@endsection
+
 @section('content')
     <div class="h-12"></div>
     @component('components.info-section-light', ['title' => trans('menu.intro.heading')])
