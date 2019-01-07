@@ -7,7 +7,7 @@
 import throttle from "lodash.throttle";
 
 require('./bootstrap');
-import "flickity";
+// import "flickity";
 import "flickity-imagesloaded";
 import jump from "jump.js";
 const Vue = require('vue');

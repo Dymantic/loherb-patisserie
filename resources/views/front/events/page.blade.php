@@ -18,9 +18,9 @@
         <p class="text-center text-purple">{{ trans('events.intro.content') }}</p>
     @endcomponent
     <section>
-        <div class="reg-section-space slide-show-container">
+        <div class="reg-section-space slide-show-container events-gallery">
             <div data-flickity='{"imagesLoaded": true}'
-                 class="w-full max-w-2xl md:w-4/5 mx-auto slide-show inner-dots">
+                 class="w-full max-w-2xl md:w-4/5 mx-auto slide-show inner-dots large-slider">
                 @foreach($event_images as $image)
                     <picture class="w-full block mx-auto">
                         <source srcset="{{ $image['small'] }}"
