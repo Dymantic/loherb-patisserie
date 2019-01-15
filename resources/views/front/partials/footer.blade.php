@@ -14,7 +14,11 @@
             </p>
             <p class="text-center">
                 <a class="font-sans tracking-wide uppercase no-underline text-white hover:text-gold"
-                   href="{{ localUrl('/rooms') }}">{{ trans('footer.links.rooms') }}</a>
+                   href="{{ localUrl('/menu') }}">{{ trans('footer.links.menu') }}</a>
+            </p>
+            <p class="text-center">
+                <a class="font-sans tracking-wide uppercase no-underline text-white hover:text-gold"
+                   href="{{ localUrl('/events') }}">{{ trans('footer.links.events') }}</a>
             </p>
             <p class="text-center">
                 <a class="font-sans tracking-wide uppercase no-underline text-white hover:text-gold"

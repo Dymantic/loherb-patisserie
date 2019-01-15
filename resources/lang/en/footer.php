@@ -16,9 +16,10 @@ return [
     ],
     'links' => [
         'about' => 'About',
-        'rooms' => 'Rooms',
+        'menu' => 'Menu',
         'contact' => 'Contact',
         'journal' => 'Journal',
+        'events' => 'Events',
         'book' => 'Book Room'
     ]
 ];

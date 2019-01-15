@@ -2,8 +2,8 @@
 
 return [
     'seo' => [
-        'title' => 'Chef\'s journal at Loherb Cuisine',
-        'description' => 'Loherb Cuisine offers a unique and luxurious culinary experience in the heart of beautiful Yilan',
+        'title' => 'The latest news from the Loherb Cuisine kitchen',
+        'description' => 'News and stories from our chef, featuring cuisine, organic living, diet and health.',
     ],
 
 

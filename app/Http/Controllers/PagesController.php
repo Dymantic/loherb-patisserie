@@ -18,10 +18,11 @@ class PagesController extends Controller
         ->map
         ->asDataArrayFor(app()->getLocale());
 
-        $reviews = data('testimonials.en');
+        $reviews = data('testimonials.' . app()->getLocale());
+        $top_review = collect($reviews)->first();
 
         $instagrams = Profile::first()->feed();
-        return view('front.home.page', ['posts' => $posts, 'reviews' => $reviews, 'instagrams' => $instagrams]);
+        return view('front.home.page', ['posts' => $posts, 'reviews' => $reviews, 'instagrams' => $instagrams, 'top_review' => $top_review]);
     }
 
     public function about()

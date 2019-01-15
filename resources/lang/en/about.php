@@ -4,8 +4,8 @@ return [
     'title' => 'Engwin about page',
 
     'seo' => [
-        'title' => 'The Story of Loherb Cuisine',
-        'description' => 'It is simply the best'
+        'title' => 'The Loherb Cuisine Story',
+        'description' => 'What makes Loherb Cuisine a one of a kind dining experience.'
     ],
 
     'section_one' => [

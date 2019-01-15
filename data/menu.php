@@ -36,7 +36,7 @@ return [
         ],
         'options'   => [
             [
-                'title'   => 'Classic',
+                'title'   => 'menu.dine.classic.title',
                 'price'   => '560',
                 'choices' => [
                     'menu.dine.classic.tulip-chicken',
@@ -45,7 +45,7 @@ return [
                 ]
             ],
             [
-                'title'   => 'Feast',
+                'title'   => 'menu.dine.feast.title',
                 'price'   => '660',
                 'choices' => [
                     'menu.dine.feast.beef-bourguignon',
@@ -54,7 +54,7 @@ return [
                 ]
             ],
             [
-                'title'   => 'Premium',
+                'title'   => 'menu.dine.premium.title',
                 'price'   => '860',
                 'choices' => [
                     'menu.dine.premium.sicily-seafood',
@@ -105,7 +105,6 @@ return [
                     'menu.brunch.subs.new-orleans-chicken',
                     'menu.brunch.subs.tuna-with-vegetables',
                     'menu.brunch.subs.pesto-mushroom',
-                    'menu.brunch.subs.hawaii-ham',
                     'menu.brunch.subs.smoked-duck',
                 ]
             ],

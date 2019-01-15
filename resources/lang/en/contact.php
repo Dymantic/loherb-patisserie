@@ -2,8 +2,8 @@
 
 return [
     'seo'=> [
-        'title' => 'Contact Us - Loherb Villa',
-        'description' => 'Loherb Villa offers a unique and luxurious stay in the heart of beautiful Yilan',
+        'title' => 'Contact Loherb Cuisine',
+        'description' => 'Get in touch with any questions about Loherb Cuisine or book a table',
     ],
 
 

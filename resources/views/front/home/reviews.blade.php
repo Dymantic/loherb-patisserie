@@ -5,7 +5,7 @@
             {{--<div class="w-full">--}}
                 {{--<div class="w-full max-w-md mx-auto overflow-auto text-purple">--}}
                     {{--@if($review['title'])--}}
-                        {{--<p class="font-heading mb-4">{{ $review['title'] }}</p>--}}
+                        {{--<p class="heading-text mb-4">{{ $review['title'] }}</p>--}}
                     {{--@endif--}}
                     {{--<p class="mb-4">--}}
                         {{--{{ $review['content'] }}--}}
@@ -25,7 +25,7 @@
         @foreach($reviews as $review)
             <div class="w-full text-purple">
                 @if($review['title'])
-                    <p class="font-heading mb-4 hidden md:block">{{ $review['title'] }}</p>
+                    <p class="heading-text mb-4 hidden md:block">{{ $review['title'] }}</p>
                 @endif
                 <p class="mb-4 md:hidden text-center">“{{ $review['brief'] ?? '' }}”</p>
                 <p class="mb-4 hidden md:block">

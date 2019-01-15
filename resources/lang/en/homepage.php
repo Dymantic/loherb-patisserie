@@ -4,8 +4,8 @@ return [
     'title' => 'The home page',
 
     'seo' => [
-        'title' => 'Loherb Cuisine - Great Food, Spectacular Environment',
-        'description' => 'It is simply the best'
+        'title' => 'Loherb Cuisine - Luxury Restaurant - Yilan, Taiwan',
+        'description' => 'Fine dining in beautiful surroundings. Breakfast, lunch and dinner is prepared daily in Western and Asian styles. Private events at request.'
     ],
 
     'banner' => [],

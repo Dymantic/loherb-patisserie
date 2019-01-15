@@ -4,8 +4,8 @@ return [
     'title' => 'Loherb Cuisine menu',
 
     'seo' => [
-        'title' => 'Our Menu - Loherb Cuisine',
-        'description' => 'It is simply the best'
+        'title' => 'The Loherb Cuisine Menu',
+        'description' => 'View a variety of dishes to choose from. Our menu is designed by our in-house chef and nutritionist.'
     ],
 
     'intro' => [

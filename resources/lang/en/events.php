@@ -2,8 +2,8 @@
 
 return [
     'seo' => [
-        'title' => 'Events at Loherb Cuisine',
-        'description' => 'It is simply the best'
+        'title' => 'Host your special event at Loherb Cuisine',
+        'description' => 'We’ll make your special occasion a memorable one. Organise your event now. We do weddings, birthdays, office parties and more.'
     ],
 
     'intro' => [

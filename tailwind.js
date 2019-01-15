@@ -197,6 +197,7 @@ module.exports = {
     fonts: {
         'heading': [
             'transat-bold',
+            'source-han-sans-traditional',
             'system-ui',
             'BlinkMacSystemFont',
             '-apple-system',
@@ -212,6 +213,7 @@ module.exports = {
         ],
         'sans': [
             'atrament-web',
+            'source-han-sans-traditional',
             'system-ui',
             'BlinkMacSystemFont',
             '-apple-system',
@@ -227,6 +229,7 @@ module.exports = {
         ],
         'serif': [
             'adobe-caslon-pro',
+            'source-han-serif-tc',
             'Constantia',
             'Lucida Bright',
             'Lucidabright',
