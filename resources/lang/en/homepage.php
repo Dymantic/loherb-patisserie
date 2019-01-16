@@ -26,6 +26,7 @@ return [
     ],
     'journal' => [
         'heading' => 'From The Chef\'s Journal',
+        'read_button' => 'Read Now',
         'link_text' => 'See Journal'
     ],
     'reviews' => [

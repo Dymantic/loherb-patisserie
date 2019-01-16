@@ -9,5 +9,5 @@
         <p class="text-purple">{{ $post['intro'] }}</p>
     </div>
 
-    <a href="{{ localUrl('/journal/' . $post['slug']) }}" class="no-underline btn btn-purple mb-4 mt-8">Read it</a>
+    <a href="{{ localUrl('/journal/' . $post['slug']) }}" class="no-underline btn btn-purple mb-4 mt-8">{{ trans('homepage.journal.read_button') }}</a>
 </div>
