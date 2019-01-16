@@ -23,3 +23,7 @@
     @include('front.home.villa')
     @include('front.home.instagram', ['instagrams' => $instagrams])
 @endsection
+
+@section('bodyscripts')
+    @include('front.partials.restaurant-jsonld')
+@endsection
