@@ -53,7 +53,7 @@
         <p class="text-purple text-center">{{ trans('events.bookings.prompt') }}</p>
         <div class="text-center mt-12">
             <a href="{{ localUrl('/contact') }}"
-               class="text-link text-purple">{{ trans('events.bookings.link_text') }} &rarr;</a>
+               class="text-link text-purple hover:text-purple-soft">{{ trans('events.bookings.link_text') }} &rarr;</a>
         </div>
 
     </section>

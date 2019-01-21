@@ -48,6 +48,7 @@ let colors = {
 
     'purple': '#5d2b46',
     'purple-soft': '#902343',
+    'hover-purple': '#902343',
 
     'navy': '#22323f',
     'off-white': '#f7f4f2',

@@ -9,6 +9,6 @@
         </div>
     @endforeach
     <div class="text-center mt-8">
-        <a class="text-link tracking-wide mt-8 text-purple" href="">{{ trans('homepage.instagram.link_text') }} &rarr;</a>
+        <a class="text-link tracking-wide mt-8 text-purple hover:text-purple-soft" href="">{{ trans('homepage.instagram.link_text') }} &rarr;</a>
     </div>
 </div>
