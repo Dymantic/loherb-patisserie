@@ -1,6 +1,7 @@
-<section class="section-height home-wedding md:pt-20 md:pl-20 flex justify-center items-center md:block">
-    <div class="max-w-xs p-8 bg-opaque mx-4 md:mx-0">
-        <p class="font-review quotes-text text-navy">“{{ $top_review['brief'] }}”</p>
-        <p class="heading-text text-navy text-right"> - {{ $top_review['name'] }}</p>
-    </div>
+<section class="section-height home-wedding flex items-center">
+        <div class="md:ml-20 bg-opaque max-w-sm p-12 pt-8 text-purple mr-4 md:mr-0 ml-4">
+            <p class="font-heading mb-4">{{ $top_review['title'] }}</p>
+            <p class="reviews-text"><span class="font-heading"></span>{{ $top_review['content'] }}</p>
+            <p class="text-right font-heading">- {{ $top_review['name'] }}</p>
+        </div>
 </section>

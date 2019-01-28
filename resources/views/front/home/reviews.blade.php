@@ -1,6 +1,6 @@
 <div class="bg-pinky-grey reg-section-space reviews">
     <p class="heading-text mb-16 text-purple text-center">{{ trans('homepage.reviews.heading') }}</p>
-    <div data-flickity class="slide-show dark arrows-wide low-dots max-w-md mx-auto">
+    <div data-flickity='{"autoPlay": 5000}' class="slide-show dark arrows-wide low-dots max-w-md mx-auto">
         @foreach($reviews as $review)
             <div class="w-full text-purple">
                 @if($review['title'])
