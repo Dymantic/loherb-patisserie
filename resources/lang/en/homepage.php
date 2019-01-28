@@ -38,7 +38,7 @@ return [
         'link_text' => 'Villa Website'
     ],
     'instagram' => [
-        'heading' => 'Follow Us on Instagram',
+        'heading' => 'Our latest on Instagram',
         'link_text' => 'Follow Us'
     ]
 ];

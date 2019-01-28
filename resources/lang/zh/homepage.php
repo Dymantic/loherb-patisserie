@@ -24,7 +24,7 @@ return [
     'journal' => [
         'heading' => '私廚隨筆',
         'read_button' => '閱讀',
-        'link_text' => '日光札記'
+        'link_text' => '私廚隨筆'
     ],
     'reviews' => [
         'heading' => '評價'
@@ -36,7 +36,7 @@ return [
         'link_text' => '日光綠築'
     ],
     'instagram' => [
-        'heading' => '日光IG',
-        'link_text' => '看看更多'
+        'heading' => 'Instagram的最新消息',
+        'link_text' => '追蹤我們'
     ]
 ];

@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'contact_heading' => '聯繫日光',
     'address_full'     => '(269)宜蘭縣冬山鄉寶福路372號',
     'address_line_one' => '(269)宜蘭縣冬山鄉寶福路372號',
     'address_line_two' => '',
@@ -9,13 +10,14 @@ return [
     ],
     'close-line'       => 'Part of the Loherb Group',
     'sites'            => [
+        'heading' => '日光集團',
         'estate'  => 'Estate',
         'biotech' => 'Biotech',
         'villa'   => 'Villa',
         'cuisine' => 'Cuisine'
     ],
     'links'            => [
-        'book'    => '預約旅程',
+        'book'    => '預約訂位',
         'about'   => '關於日光',
         'menu'    => '日光菜單',
         'events'  => '節慶活動',
