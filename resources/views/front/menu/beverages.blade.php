@@ -17,13 +17,5 @@
             @include('front.menu.beverage-block', ['section' => $menu['beverages']['sections']['aulait'], 'border' => 'left'])
         </div>
     </div>
-    {{--@foreach($menu['beverages']['sections'] as $section)--}}
-        {{--<p class="mb-4 heading-text text-purple">{{ trans($section['title']) }}</p>--}}
-        {{--@foreach($section['options'] as $option)--}}
-            {{--<p class="text-purple">{{ trans($option) }}</p>--}}
-        {{--@endforeach--}}
-        {{--<p class="mt-4 heading-text text-purple">{{ $section['price'] }}</p>--}}
-        {{--<div class="w-48 md:border-b border-purple my-8"></div>--}}
-    {{--@endforeach--}}
 </section>
 @include('front.menu.image-bar', ['images' => $menu['beverages']['images']])

@@ -3,151 +3,88 @@
 return [
         'en' => [
             [
-                'title' => 'A wonderful stay',
-                'brief' => 'Really enjoyed our 2 nights here at this lovely property. Waking up to beautiful views in the morning with nice healthy breakfast.',
-                'content' => 'Really enjoyed our 2 nights here at this lovely property. Waking up to beautiful views in the morning with nice healthy breakfast. Staff is very friendly and attentive. Will definitely recommend this villa.',
-                'name' => 'Gabriel',
-                'rating' => 4.6,
-                'source' => 'agoda.com'
-            ],
-            [
-                'title' => 'Excellent visit!',
-                'brief' => 'Maybe one of the very best in Yilan',
-                'content' => 'New, clean, beautifully decorated, and more importantly a very friendly host. Good and healthy food, fresh! Very nice breakfast and cookies! Very nice rice field view. Maybe one of the very best at Yilan. We are even offered to take their bicycle for a ride, but we did not have enough time. Will be an excellent relaxing trip. Kudoos!! Please keep it up!! We will visit again',
-                'name' => 'How',
+                'title' => 'Perfect food and environment',
+                'brief' => ' The sirloin steak amazed me by its soft and tender beef.',
+                'content' => 'The main course - sirloin steak amazed me by its soft and tender beef. You can enjoy the meal with nice and cozy environment. Worth to come again.',
+                'name' => '家瑜 黃',
                 'rating' => 5,
-                'source' => 'agoda.com'
+                'source' => 'tripadvisor.com'
             ],
             [
-                'title' => 'Would totally visit again in the future!',
-                'brief' => 'Would totally visit again in the future!',
-                'content' => 'They offered complimentary breakfast and afternoon-tea, which tasted great alongside the beautiful landscape. Would totally visit again in the future!',
-                'name' => 'Vicky',
+                'title' => 'Very tasty chicken',
+                'brief' => 'The price is comparable to cafe in Hong Kong but the quality is outstanding.',
+                'content' => 'The environment is so nice and calm including the surrounding water and birds. The price is comparable to cafe in Hong Kong but the quality is outstanding. We order the chicken for the children. Initially, they are undercooked. They take back for redoing. It comes back just right and tasty and the children eat a lot. They also like the pumpkin soup and the dessert and very much the fresh bread. Happy meal in rainy days.',
+                'name' => 'Kathy C',
                 'rating' => 5,
-                'source' => 'agoda.com'
-            ],
-            [
-                'title' => 'Exceptional',
-                'brief' => 'Superb place',
-                'content' => 'Superb place. Nice environment, but you need to have own transportation to travel around. Room is clean & beautiful environment.',
-                'name' => 'Lia',
-                'rating' => 5,
-                'source' => 'agoda.com'
-            ],
-            [
-                'title' => 'Beautiful inside and out',
-                'brief' => 'The rooftop lounge area is amazing too!',
-                'content' => 'I came to Yilan with my mom for the night really just to stay at this minsu. I happened across it online and wanted to check it out. It did not disappoint. From the moment you step into the lobby, the openness and design of the building puts you into a relaxed state. The owners really did not sacrifice space in the overall design. They only have 6 rooms to rent in the main building, and yet the public areas are spacious and airy. The grounds are beautiful too, with much thought put into the landscaping. It is a family-run business and we were greeted mostly by the son. You can tell they are proud of the business and really want to ensure you have a great stay. Everything is as pictured. The free bicycles they provide for you to ride around the rice paddies is a major plus. Oh, and the rooftop lounge area is amazing too! Would definitely come back!',
-                'name' => 'Wen-Ting',
-                'rating' => 5,
-                'source' => 'agoda.com'
-            ],
-            [
-                'title' => 'Rooms and staff are perfect.',
-                'brief' => 'Rooms and staff are perfect.',
-                'content' => 'Rooms and staff are perfect. They are very humble, polite and friendly in Asian way. The breakfast was great good taste and nice decoration.',
-                'name' => 'Faiyi',
-                'rating' => 5,
-                'source' => 'booking.com'
-            ],
-            [
-                'title' => 'Most helpful staff',
-                'brief' => 'Very impressive service!',
-                'content' => 'When we wanted to stay for an extra night, though there was no vacancy, the host zealous offered recommendation of other similar hotels and made contact for us. Very impressive service!',
-                'name' => 'Ching-Shan',
-                'rating' => 5,
-                'source' => 'agoda.com'
-            ],
-            [
-                'title' => 'Bright and tidy hostel',
-                'brief' => 'I love the welcoming tea set and breakfast.',
-                'content' => 'The hostel is very beautiful and tidy. I love the welcoming tea set and breakfast. The environment is green and fresh, really a good place to relax. But better come during spring or summer to have a yellow field view. It is very sweet that they took an instant photo for us when doing check out',
-                'name' => 'Nam',
-                'rating' => 4.8,
-                'source' => 'agoda.com'
-            ],
-            [
-                'title' => 'Love this place albeit it\'s a bit further from the main town.',
-                'brief' => 'They provided us free bicycles and we had a great time exploring the surroundings',
-                'content' => 'This place is love! Took cab from luodong train station, cost us about 200 NTD. Had a great stay there with lovely breakfast provided plus teabreak is also included. They provided us free bicycles and we had a great time exploring the surrounding. Owner has a black dog which followed us while we were cycling. The dog brought us around the park and even led us back to the villa. Overall, I would highly recommend this place for chill and relax and not forgetting the room has a projector screen! Total enjoyment.',
-                'name' => 'Peizi',
-                'rating' => 4.8,
-                'source' => 'agoda.com'
-            ],
-            [
-                'title' => 'Wonderful homestay! We love this place!',
-                'brief' => 'The breakfast was so delicious and came in huge serving. Even the presentation of food was classy.',
-                'content' => 'It was so nice to wake up to nature, large plot of grasslands. Serenity and peace. The staffs were polite and attentive to my mother who was not too mobile. The rooms were modern and comfortable with balcony. Beds were big. Rooms were so clean that I felt like it is my house. The breakfast was so delicious and came in huge serving. Even the presentation of food was classy. There is an outdoor garden which will be great to hangout during nice weather. This location is about 10 to 15mins away from the main city but it was worth it. We all love it so much. Definitely worth every bit!',
-                'name' => 'Jennifer',
-                'rating' => 4.8,
-                'source' => 'agoda.com'
-            ],
-            [
-                'title' => 'Stay with 2 kids',
-                'brief' => 'Excellent service with accommodating hosts.',
-                'content' => 'Loherb opened in Aug 2015. We spent 2 nights there with two kids -9 & 14. Excellent service with accommodating hosts. Portion for Breakfast and tea was generous. Very clean and bright rooms. Convenient location to reach the cycling track by the river. Would definitely stay there again.',
-                'name' => 'Patricia',
-                'rating' => 4.8,
-                'source' => 'agoda.com'
-            ],
-            [
-                'title' => 'Relaxing stay with hospitable hosts who prepares delicious healthy meals',
-                'brief' => 'We liked the huge bathtub where two people can sit in comfortably.',
-                'content' => 'My husband and I enjoyed our one night stay at LOHERB away from the bustling city. It was very peaceful and our room (Lily room) had a great view of the padi fields. The bedroom is very clean with comfortable beds. The hosts also provided harder pillows upon request. We like the huge bathtub where two person can sit in comfortably. The toiletries included a bottle of essential oil for a fragrant relaxing bath. The TV has a wide selection of channels but the connection is not very stable. LOHERB served us the most delicious meals in Yilan, and we were delighted to know that these healthy meals were thoughtfully planned by the dietitian host. The hosts provide complimentary breakfast and afternoon tea. While there is nothing much to do in the nighttime (unless you have a car to drive to Luodong Night Market), you can enjoy a sumptuous dinner in LOHERB\'s cafe at very reasonable prices.',
-                'name' => 'Hui',
-                'rating' => 4.6,
-                'source' => 'agoda.com'
+                'source' => 'tripadvisor.com'
             ],
 
             [
-                'title' => 'One of the nice homestay/hotel I will be visit again',
-                'brief' => 'The friendly and helpful staff helped to set up a birthday dinner on the rooftop.',
-                'content' => 'nice place to stay with relax environment, like the room with the bathtub, friendly and helpful staff help to set up the birthday dinner on the rooftop. nice and healthy food, they provide the complimentary high tea which pulling heart so much as it is really delicious.',
-                'name' => 'Angie',
-                'rating' => 4.4,
-                'source' => 'agoda.com'
+                'title' => '',
+                'brief' => 'Fantastic people & food, had a lovely stay here!',
+                'content' => 'Fantastic people & food, had a lovely stay here! Thanks for hosting my family & I!',
+                'name' => 'Renee Sim',
+                'rating' => 5,
+                'source' => 'facebook.com'
             ],
             [
-                'title' => 'Fantastic retreat',
-                'brief' => 'The owners and staff couldn’t be more welcoming and were always on hand to answer any questions we had.',
-                'content' => 'A hotel with stunning modernist architecture and design in a secluded part of Yilan (but only 10 minutes drive from the main town). The spacious layout really makes the most of the surrounding vistas. The owners and staff couldn\'t be more welcoming and were always on hand to answer any questions we had.  Food was also fantastic and you can tell the kitchen pays a great deal of attention to the quality of ingredients.  I would recommend a stay even if you have no specific plans in Yilan - it\'s an ideal retreat from Taipei life.',
-                'name' => 'Manchester',
+                'title' => '',
+                'brief' => 'Delicious food, will definitely go back.',
+                'content' => 'Delicious food, friendly host and nice room. Will definitely go back.',
+                'name' => '林筱娟',
                 'rating' => 5,
-                'source' => 'tripadvisor.com'
+                'source' => 'facebook.com'
             ],
             [
-                'title' => 'Cozy stay',
-                'brief' => 'The whole room has floor to ceiling glass which allows us to take in the country side scenery',
-                'content' => 'We arrived in the afternoon and after swift check in, we had the complimentary afternoon tea which consisted of cookies and cakes and a choice of drink. Afterwards we went for a ride with the villa\'s bikes in the vicinity. The villa\'s friendly dog came along with us which made our ride between paddy fields extra special. There is a cycling track next to the river around 5 minutes ride from the villa. The room comes with a big bathtub and bath salt is also provided. The whole room has floor to ceiling glass which allows us to take in the country side scenery. There is no public transportation to the villa so it would be much more convenient if you are driving. The villa will help to call a taxi whenever you need one.',
-                'name' => 'Han L',
+                'title' => '',
+                'brief' => 'A place to relax and enjoy.',
+                'content' => 'A place to relax and enjoy.',
+                'name' => 'Jack Lo',
                 'rating' => 5,
-                'source' => 'tripadvisor.com'
+                'source' => 'facebook.com'
             ],
+            [
+                'title' => '',
+                'brief' => 'yummy food, friendly host.... All are fantastic!!!!',
+                'content' => 'Stylish room, yummy food, friendly host.... All are fantastic!!!! Please keep on!!! Hope to be back soon',
+                'name' => 'Heidy Ng',
+                'rating' => 5,
+                'source' => 'facebook.com'
+            ],
+            [
+                'title' => '',
+                'brief' => 'Excellent Place. I must come here again and again.',
+                'content' => 'Excellent Place. I must come here again and again.',
+                'name' => 'Ben Ford',
+                'rating' => 5,
+                'source' => 'facebook.com'
+            ],
+
         ],
         'zh' => [
             [
-                'title' => '環境一流',
-                'brief' => '在月色中睡去、在晨星下醒來，四周只有蛙鳴，沒有城市的紛擾',
-                'content' => '在月色中睡去、在晨星下醒來，四周只有蛙鳴，沒有城市的紛擾；借台腳踏車，幾分鐘外就是河堤，綿延到太平洋的水道，讓人心情舒暢',
-                'name' => 'DesperateAnzy',
+                'title' => '餐點好吃',
+                'brief' => '餐點製作的很不錯，各式排餐這邊幾乎都可以享用的到，下次想去住宿。',
+                'content' => '位於不起眼的田中央，沒想到餐點製作的很不錯，各式排餐這邊幾乎都可以享用的到，豬肋排非常軟嫩好入口，份量足夠，周圍的景色清幽，下次想去住宿。',
+                'name' => '寧真',
                 'rating' => 5,
                 'source' => 'tripadvisor.com'
             ],
             [
-                'title' => '超棒的放鬆之旅',
-                'brief' => '建議之後準備要來的人，晚餐也可以在此享用！ 都很棒呢！',
-                'content' => '剛開始是因為女朋友無意間看到的民宿，到後來入住時感受到物超所值的服務、住宿品質與餐點質量。 一切的一切都很棒 一定還會在來！ 雖然網路上只有一泊二食（早餐.下午茶） 不過還是建議之後準備要來的人，晚餐也可以在此享用！ 都很棒呢！',
-                'name' => 'Guide448279',
-                'rating' => 5,
+                'title' => '家族聚餐',
+                'brief' => '食材天然，用心烹飪，另人垂涎三尺！',
+                'content' => '環境清幽，料理特別好吃！帶朋友 家人來都很舒服，更是小朋友逗留的好場所！ 食材天然，用心烹飪，另人垂涎三尺！',
+                'name' => 'shenny',
+                'rating' => 4,
                 'source' => 'tripadvisor.com'
             ],
             [
-                'title' => '民宿老闆及員工非常親切',
-                'brief' => '下次去宜蘭玩一定會還會在日光綠築留宿😍 (Ps.老闆很斯文~)',
-                'content' => '剛好退房那天遇到下雨大淹水，無法開車出去，民宿老闆很貼心留旅客等待水位退後在退房，還提供很好吃的餐點，很貼心、細心的一間民宿，下次去宜蘭玩一定會還會在日光綠築留宿😍 (Ps.老闆很斯文~)',
-                'name' => 'Kai',
+                'title' => '私廚餐點精緻用心',
+                'brief' => '午間來享用套餐 櫻桃鴨令人驚艷，鴨油流出的香氣讓人食指大動。',
+                'content' => '午間來享用套餐 櫻桃鴨令人驚艷，鴨油流出的香氣讓人食指大動。雞腿排香嫩多汁，也非常好吃。 在這裡用餐感覺相當舒適，料理也能感受到用心，值得一試。',
+                'name' => '葛瑞',
                 'rating' => 5,
-                'source' => 'agoda.com'
+                'source' => 'tripadvisor.com'
             ],
 //            [
 //                'title' => '令人難以忘懷的溫馨民宿',
@@ -158,84 +95,44 @@ return [
 //                'source' => 'agoda.com'
 //            ],
             [
-                'title' => '我們超喜歡',
-                'brief' => '不管是房間也好、設施、裝潢，甚至餐點，我們都很喜歡。',
-                'content' => '整個民宿整體來說我們很滿意，不管是房間也好、設施、裝潢，甚至餐點，我們都很喜歡。 下次還會再來～～',
-                'name' => 'Ching',
+                'title' => '十分怡然自得用餐的好地方',
+                'brief' => '第一次來到這裡超過滿意！除了服務品質好丶食材料理好吃丶用餐的環境更是舒服度更是好到爆！',
+                'content' => '第一次來到這裡超過滿意！除了服務品質好丶食材料理好吃丶用餐的環境更是舒服度更是好到爆！ 參觀了這裡的民宿令人想馬上入住！大大推薦👍👍👍👍',
+                'name' => '秀玲廖',
                 'rating' => 5,
-                'source' => 'agoda.com'
+                'source' => 'tripadvisor.com'
             ],
             [
-                'title' => '超棒的非常放鬆啊',
-                'brief' => '～頂樓看星星也好漂亮～下次要一次訂一個禮拜～',
-                'content' => '房間景觀超好超放鬆～東西好吃又乾淨，工作人員服務態度都很好很親切，也可以一直坐著都不會趕人，益生菌也很棒～頂樓看星星也好漂亮～太喜歡了想要再續住可惜客滿了，下次要一次訂一個禮拜～謝謝每個人員的用心～',
-                'name' => 'Hsieh',
+                'title' => '好餐廳',
+                'brief' => '第一次來到這裡超過滿意！除了服務品質好丶食材料理好吃丶用餐的環境更是舒服度更是好到爆！',
+                'content' => '隱身在鄉間的好餐廳，氣氛好，服務佳，環境優雅，食材新鮮美味，空間寬敞不擁擠，與朋友聚會或闔家聚餐的好去處。',
+                'name' => '秀玲廖',
                 'rating' => 5,
-                'source' => 'agoda.com'
+                'source' => 'tripadvisor.com'
             ],
             [
-                'title' => '讓我更加期待下次的假期',
-                'brief' => '早餐與晚餐都十分令人著迷，用餐環境非常紓壓',
-                'content' => '早餐與晚餐都十分令人著迷，用餐環境非常紓壓，讓我願意給他們滿分的評價。',
-                'name' => 'Yu-te',
+                'title' => '好餐廳',
+                'brief' => '隱身在鄉間的好餐廳，氣氛好，服務佳，環境優雅，食材新鮮美味。',
+                'content' => '隱身在鄉間的好餐廳，氣氛好，服務佳，環境優雅，食材新鮮美味，空間寬敞不擁擠，與朋友聚會或闔家聚餐的好去處。',
+                'name' => 'Simon Y',
                 'rating' => 5,
-                'source' => 'booking.com'
+                'source' => 'tripadvisor.com'
             ],
             [
-                'title' => '好極了',
-                'brief' => '頂樓觀星也超有渡假感覺的！',
-                'content' => '有豐盛的早餐和下午茶，住宿期間都吃得飽飽的，房間和戶外設施都很棒、很貼心！頂樓觀星也超有渡假感覺的！',
-                'name' => 'Wandy',
-                'rating' => 4.6,
-                'source' => 'booking.com'
-            ],
-            [
-                'title' => '很棒',
-                'brief' => '開車到羅東夜市也很近 晚上環境很安靜',
-                'content' => '房間很舒服 也可以請服務人員安裝apple TV 開車到羅東夜市也很近 晚上環境很安靜',
-                'name' => '敏嘉',
-                'rating' => 4.4,
-                'source' => 'booking.com'
-            ],
-            [
-                'title' => '',
-                'brief' => '房間很舒服~早餐很好吃~ 當天退房貼心拍照',
-                'content' => '房間很舒服~早餐很好吃~ 當天退房貼心拍照，免費拍立得一張，將美好的回憶紀錄下來給顧客，是非常貼心的作法',
-                'name' => '詩婷',
+                'title' => '午餐',
+                'brief' => '女兒帶著家人二次到訪，主菜十分精緻好吃，也跟著喜歡這裡了！',
+                'content' => '女兒帶著家人二次到訪，環境很清幽，窗外景緻很清新，香椿水很清香，南光濃湯很清甜，主菜十分精緻好吃，也跟著喜歡這裡了！',
+                'name' => 'Amy L',
                 'rating' => 5,
-                'source' => 'asiayo.com'
+                'source' => 'tripadvisor.com'
             ],
             [
-                'title' => '',
-                'brief' => '這是我第一次到宜蘭。讓我深深愛上宜蘭，就是這個民宿。',
-                'content' => '這是我第一次到宜蘭。讓我深深愛上宜蘭，就是這個民宿。謝謝你們。我們明年見。',
-                'name' => 'Xin-Yu Yvette Yeo',
+                'title' => '午餐的約會~',
+                'brief' => '餐點方面，都很用心，食材也很健康。',
+                'content' => '風和日麗的天氣！午餐的約會來到日光私廚，好寬敞的用餐場地。放眼望去~外面的風景，好舒心。餐點方面，都很用心，食材也很健康。',
+                'name' => 'Maggie S',
                 'rating' => 5,
-                'source' => 'asiayo.com'
-            ],
-            [
-                'title' => '',
-                'brief' => '房間還有大屏幕可以看電視，設備非常好！',
-                'content' => '民宿整個環境十分舒適寬敞，房間還有大屏幕可以看電視，設備非常好！覺得物超所值！',
-                'name' => '志明',
-                'rating' => 5,
-                'source' => 'asiayo.com'
-            ],
-            [
-                'title' => '',
-                'brief' => '房間明亮乾淨，整面落地窗，風景超好!',
-                'content' => '房間明亮乾淨，整面落地窗，風景超好! 人員態度親切和善，早餐、下午茶都相當好吃，看得出很用心在經營! 推薦!!',
-                'name' => '育瑞',
-                'rating' => 5,
-                'source' => 'asiayo.com'
-            ],
-            [
-                'title' => '',
-                'brief' => '環境真的很棒很安靜，也有地方可停車!',
-                'content' => '很棒的住宿經驗~ 實際就與照片上一模一樣，設計漂亮溫馨，人員服務也很好很專業! 雖然地點有點偏，但環境真的很棒很安靜，也有地方可停車!',
-                'name' => 'Tom Wang',
-                'rating' => 5,
-                'source' => 'asiayo.com'
+                'source' => 'tripadvisor.com'
             ],
 
         ]
