@@ -8,6 +8,10 @@ return [
         'description' => 'What makes Loherb Cuisine a one of a kind dining experience.'
     ],
 
+    'banner' => [
+        'text' => 'Food and environment in harmony.'
+    ],
+
     'section_one' => [
         'heading' => 'Experience & Expertise',
         'content' => 'Loherb Cuisine was built in 2015 in conjunction with the immaculate Villa. This not only allowed guests of the Villa to enjoy first class food on site, making their stay even more relaxing, but it also attracts people from far and wide to come and enjoy the ambience of the Loherb environment and the tasty, fresh dishes it serves up during the  day and night.'

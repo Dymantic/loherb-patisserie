@@ -10,6 +10,7 @@ return [
         ['small' => '/images/events/slideshow/small/slide_6.jpg', 'full' => '/images/events/slideshow/slide_6.jpg'],
         ['small' => '/images/events/slideshow/small/slide_7.jpg', 'full' => '/images/events/slideshow/slide_7.jpg'],
         ['small' => '/images/events/slideshow/small/slide_8.jpg', 'full' => '/images/events/slideshow/slide_8.jpg'],
+        ['small' => '/images/events/slideshow/small/slide_9.jpg', 'full' => '/images/events/slideshow/slide_9.jpg'],
     ],
 
     'amenities' => [
