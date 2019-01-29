@@ -19,7 +19,7 @@
     @endcomponent
     <section>
         <div class="reg-section-space slide-show-container events-gallery">
-            <div data-flickity='{"imagesLoaded": true}'
+            <div data-flickity='{"imagesLoaded": true, "autoPlay": true}'
                  class="w-full max-w-2xl md:w-4/5 mx-auto slide-show inner-dots large-slider">
                 @foreach($event_images as $image)
                     <picture class="w-full block mx-auto">
