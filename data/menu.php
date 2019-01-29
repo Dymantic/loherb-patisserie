@@ -137,7 +137,7 @@ return [
     'beverages' => [
         'title'    => 'menu.beverages.title',
         'sections' => [
-            [
+            'coffee' => [
                 'title'   => 'menu.beverages.coffee.title',
                 'price'   => 230,
                 'options' => [
@@ -149,7 +149,7 @@ return [
                     'menu.beverages.coffee.caramel-machiato',
                 ]
             ],
-            [
+            'tea' => [
                 'title'   => 'menu.beverages.tea.title',
                 'price'   => 160,
                 'options' => [
@@ -159,7 +159,7 @@ return [
                     'menu.beverages.tea.kiwi-strawberry-tea',
                 ]
             ],
-            [
+            'juice' => [
                 'title'   => 'menu.beverages.fruit-juice.title',
                 'price'   => 160,
                 'options' => [
@@ -169,7 +169,7 @@ return [
                     'menu.beverages.fruit-juice.kiwi-pineapple',
                 ]
             ],
-            [
+            'aulait' => [
                 'title'   => 'menu.beverages.au-lait.title',
                 'price'   => 160,
                 'options' => [
