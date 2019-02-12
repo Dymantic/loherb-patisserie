@@ -6,7 +6,7 @@ return [
                 'title' => 'Perfect food and environment',
                 'brief' => ' The sirloin steak amazed me by its soft and tender beef.',
                 'content' => 'The main course - sirloin steak amazed me by its soft and tender beef. You can enjoy the meal with nice and cozy environment. Worth to come again.',
-                'name' => '家瑜 黃',
+                'name' => 'Chia-Yu Huang',
                 'rating' => 5,
                 'source' => 'tripadvisor.com'
             ],

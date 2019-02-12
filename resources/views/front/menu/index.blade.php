@@ -19,13 +19,13 @@
     @endcomponent
     <div class="flex justify-around md:justify-center mx-auto items-center p-4 menu-sub-nav">
         <a href="" data-jump-target="#dine" data-jump-offset="-50"
-           class="font-sans text-navy uppercase no-underline hover:underline md:mx-12">{{ trans('menu.dine.title') }}</a>
+           class="font-sans font-medium text-navy uppercase no-underline hover:underline md:mx-12">{{ trans('menu.dine.title') }}</a>
         <a href="" data-jump-target="#brunch" data-jump-offset="-50"
-           class="font-sans text-navy uppercase no-underline hover:underline md:mx-12">{{ trans('menu.brunch.title') }}</a>
+           class="font-sans font-medium text-navy uppercase no-underline hover:underline md:mx-12">{{ trans('menu.brunch.title') }}</a>
         <a href="" data-jump-target="#beverages" data-jump-offset="-50"
-           class="font-sans text-navy uppercase no-underline hover:underline md:mx-12">{{ trans('menu.beverages.title') }}</a>
+           class="font-sans font-medium text-navy uppercase no-underline hover:underline md:mx-12">{{ trans('menu.beverages.title') }}</a>
         <a href="" data-jump-target="#alcohol" data-jump-offset="-50"
-           class="font-sans text-navy uppercase no-underline hover:underline md:mx-12">{{ trans('menu.alcohol.title') }}</a>
+           class="font-sans font-medium text-navy uppercase no-underline hover:underline md:mx-12">{{ trans('menu.alcohol.title') }}</a>
     </div>
     <div class="pb-20">
 

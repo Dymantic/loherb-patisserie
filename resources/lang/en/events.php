@@ -8,7 +8,7 @@ return [
 
     'intro' => [
         'heading' => 'Dreams do Come True',
-        'content' => 'With its glass walls, brilliant natural light, and small garden centrally located in it, the Loherb Cuisine space is a natural wonderland that can host all kinds of events and make them look and feel remarkable, elegant and comfortable for everyone. Weddings, birthdays and corporate get-togethers will feel magical, personal and professional.'
+        'content' => 'The Loherb Cuisine can host all kinds of events and make them look and feel remarkable, elegant and comfortable for everyone. Weddings, birthdays and corporate get-togethers will feel magical, personal and professional.'
     ],
     
     'venue' => [

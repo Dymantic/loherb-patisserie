@@ -6,8 +6,24 @@
   @apply .font-serif .text-lg;
 }
 
+html:lang(zh) .body-text {
+  @apply .font-sans .font-thin;
+}
+
 .reviews-text {
   @apply .font-serif .italic .text-lg;
+}
+
+.slanted-text {
+  @apply .font-serif .italic .text-lg;
+}
+
+html:lang(zh) .slanted-text {
+@apply .font-heading;
+}
+
+html:lang(zh) .reviews-text {
+@apply .font-sans;
 }
 
 .quotes-text {

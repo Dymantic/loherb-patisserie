@@ -1,5 +1,5 @@
 <section id="dine" class="bg-pinky-grey max-w-xl reg-section-space flex flex-col items-center mx-auto">
-    <p class="font-sans text-navy mb-8 uppercase">{{ trans('menu.dine.title') }}</p>
+    <p class="font-sans font-medium text-navy mb-8 uppercase">{{ trans('menu.dine.title') }}</p>
     <p class="mb-2 md:mb-4 heading-text text-purple capitalize">{{ trans($menu['dine']['starters']['title']) }}</p>
     @foreach($menu['dine']['starters']['courses'] as $course)
         <p class="text-purple capitalize">{{ trans($course) }}</p>
