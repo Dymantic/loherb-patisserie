@@ -2,15 +2,51 @@
 
 return [
     'slideshow' => [
-        ['small' => '/images/events/slideshow/small/slide_1.jpg', 'full' => '/images/events/slideshow/slide_1.jpg'],
-        ['small' => '/images/events/slideshow/small/slide_2.jpg', 'full' => '/images/events/slideshow/slide_2.jpg'],
-        ['small' => '/images/events/slideshow/small/slide_3.jpg', 'full' => '/images/events/slideshow/slide_3.jpg'],
-        ['small' => '/images/events/slideshow/small/slide_4.jpg', 'full' => '/images/events/slideshow/slide_4.jpg'],
-        ['small' => '/images/events/slideshow/small/slide_5.jpg', 'full' => '/images/events/slideshow/slide_5.jpg'],
-        ['small' => '/images/events/slideshow/small/slide_6.jpg', 'full' => '/images/events/slideshow/slide_6.jpg'],
-        ['small' => '/images/events/slideshow/small/slide_7.jpg', 'full' => '/images/events/slideshow/slide_7.jpg'],
-        ['small' => '/images/events/slideshow/small/slide_8.jpg', 'full' => '/images/events/slideshow/slide_8.jpg'],
-        ['small' => '/images/events/slideshow/small/slide_9.jpg', 'full' => '/images/events/slideshow/slide_9.jpg'],
+        [
+            'small' => '/images/events/slideshow/small/events_gallery_1.jpg',
+            'full' => '/images/events/slideshow/reg/events_gallery_1.jpg',
+            'wide' => '/images/events/slideshow/wide/events_gallery_1.jpg',
+        ],
+        [
+            'small' => '/images/events/slideshow/small/events_gallery_2.jpg',
+            'full' => '/images/events/slideshow/reg/events_gallery_2.jpg',
+            'wide' => '/images/events/slideshow/wide/events_gallery_2.jpg',
+        ],
+        [
+            'small' => '/images/events/slideshow/small/events_gallery_3.jpg',
+            'full' => '/images/events/slideshow/reg/events_gallery_3.jpg',
+            'wide' => '/images/events/slideshow/wide/events_gallery_3.jpg',
+        ],
+        [
+            'small' => '/images/events/slideshow/small/events_gallery_4.jpg',
+            'full' => '/images/events/slideshow/reg/events_gallery_4.jpg',
+            'wide' => '/images/events/slideshow/wide/events_gallery_4.jpg',
+        ],
+        [
+            'small' => '/images/events/slideshow/small/events_gallery_5.jpg',
+            'full' => '/images/events/slideshow/reg/events_gallery_5.jpg',
+            'wide' => '/images/events/slideshow/wide/events_gallery_5.jpg',
+        ],
+        [
+            'small' => '/images/events/slideshow/small/events_gallery_6.jpg',
+            'full' => '/images/events/slideshow/reg/events_gallery_6.jpg',
+            'wide' => '/images/events/slideshow/wide/events_gallery_6.jpg',
+        ],
+        [
+            'small' => '/images/events/slideshow/small/events_gallery_7.jpg',
+            'full' => '/images/events/slideshow/reg/events_gallery_7.jpg',
+            'wide' => '/images/events/slideshow/wide/events_gallery_7.jpg',
+        ],
+        [
+            'small' => '/images/events/slideshow/small/events_gallery_8.jpg',
+            'full' => '/images/events/slideshow/reg/events_gallery_8.jpg',
+            'wide' => '/images/events/slideshow/wide/events_gallery_8.jpg',
+        ],
+        [
+            'small' => '/images/events/slideshow/small/events_gallery_9.jpg',
+            'full' => '/images/events/slideshow/reg/events_gallery_9.jpg',
+            'wide' => '/images/events/slideshow/wide/events_gallery_9.jpg',
+        ],
     ],
 
     'amenities' => [

@@ -18,15 +18,17 @@
         <p class="text-center text-purple">{{ trans('events.intro.content') }}</p>
     @endcomponent
     <section>
-        <div class="reg-section-space slide-show-container events-gallery">
+        <div class="p-0 lg:p-20 slide-show-container events-gallery">
             <div data-flickity='{"imagesLoaded": true, "autoPlay": true}'
-                 class="w-full max-w-2xl md:w-4/5 mx-auto slide-show inner-dots large-slider">
+                 class="w-full mx-auto slide-show inner-dots large-slider">
                 @foreach($event_images as $image)
                     <picture class="w-full block mx-auto">
                         <source srcset="{{ $image['small'] }}"
                                 media="(max-width: 576px)">
                         <source srcset="{{ $image['full'] }}"
-                                media="(min-width: 577px)">
+                                media="(min-width: 577px) and (max-width: 900px)">
+                        <source srcset="{{ $image['wide'] }}"
+                                media="(min-width: 901px)">
                         <img srcset="{{ $image['full'] }}"
                              alt="Loherb Cuisine provides an ideal event venue">
                     </picture>
