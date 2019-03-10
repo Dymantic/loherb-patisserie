@@ -10,11 +10,11 @@
   "require": {
     "php": "^7.1.3",
     "dymantic/laravel-instagram-feed": "^0.1.2",
-    "dymantic/laravel-static": "dev-master",
-    "dymantic/multilingual-posts": "^0.1",
+    "dymantic/laravel-static": "^0.1",
+    "dymantic/multilingual-posts": "^0.3",
     "dymantic/secretary": "^0.1.2",
     "fideloper/proxy": "^4.0",
-    "laravel/framework": "5.7.*",
+    "laravel/framework": "5.8.*",
     "laravel/tinker": "^1.0",
     "mcamara/laravel-localization": "^1.3"
   },
