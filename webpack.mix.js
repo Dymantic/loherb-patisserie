@@ -1,6 +1,6 @@
 const mix = require('laravel-mix');
 const tailwindcss = require('tailwindcss');
-
+require('laravel-mix-purgecss');
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -18,4 +18,10 @@ mix.js('resources/js/app.js', 'public/js')
        postCss: [
            tailwindcss('./tailwind.js'),
        ]
-   }).version();
+   })
+   .purgeCss({
+       globs: [
+           path.join(__dirname, 'node_modules/flickity/**/*.js'),
+       ],
+   })
+   .version();
