@@ -8,7 +8,7 @@
     @include('front.partials.ogmeta', [
         'ogTitle' => trans('about.seo.title'),
         'ogDescription' => trans('about.seo.description'),
-        'ogImage' => ''
+        'ogImage' => url('/images/cuisine_facebook.jpg'),
     ])
 @endsection
 
