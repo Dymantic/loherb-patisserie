@@ -22,6 +22,9 @@ mix.js('resources/js/app.js', 'public/js')
    .purgeCss({
        globs: [
            path.join(__dirname, 'node_modules/flickity/**/*.js'),
+
        ],
+       whitelistPatterns: [/iframe/, /img/],
+       whitelistPatternsChildren: [/^.journal-entry/]
    })
    .version();
