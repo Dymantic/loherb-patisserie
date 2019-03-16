@@ -24,7 +24,7 @@ mix.js('resources/js/app.js', 'public/js')
            path.join(__dirname, 'node_modules/flickity/**/*.js'),
 
        ],
-       whitelistPatterns: [/iframe/, /img/],
+       whitelistPatterns: [/iframe/, /img/, /figure/],
        whitelistPatternsChildren: [/^.journal-entry/]
    })
    .version();
