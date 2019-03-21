@@ -22,12 +22,10 @@
     @include('front.home.reviews', ['reviews' => $reviews])
     @include('front.home.villa')
     @include('front.home.instagram', ['instagrams' => $instagrams])
-    <div class="fb-customerchat"
-         page_id="{{ config('facebook.page_id') }}" theme_color="#5d2b46">
-    </div>
+
 @endsection
 
 @section('bodyscripts')
     @include('front.partials.restaurant-jsonld')
-    @include('front.partials.facebook-sdk')
+
 @endsection
