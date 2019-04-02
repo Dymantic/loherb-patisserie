@@ -12,11 +12,11 @@ return [
             'full' => '/images/events/slideshow/reg/events_gallery_2.jpg',
             'wide' => '/images/events/slideshow/wide/events_gallery_2.jpg',
         ],
-        [
-            'small' => '/images/events/slideshow/small/events_gallery_3.jpg',
-            'full' => '/images/events/slideshow/reg/events_gallery_3.jpg',
-            'wide' => '/images/events/slideshow/wide/events_gallery_3.jpg',
-        ],
+//        [
+//            'small' => '/images/events/slideshow/small/events_gallery_3.jpg',
+//            'full' => '/images/events/slideshow/reg/events_gallery_3.jpg',
+//            'wide' => '/images/events/slideshow/wide/events_gallery_3.jpg',
+//        ],
         [
             'small' => '/images/events/slideshow/small/events_gallery_4.jpg',
             'full' => '/images/events/slideshow/reg/events_gallery_4.jpg',
@@ -27,25 +27,50 @@ return [
             'full' => '/images/events/slideshow/reg/events_gallery_5.jpg',
             'wide' => '/images/events/slideshow/wide/events_gallery_5.jpg',
         ],
-        [
-            'small' => '/images/events/slideshow/small/events_gallery_6.jpg',
-            'full' => '/images/events/slideshow/reg/events_gallery_6.jpg',
-            'wide' => '/images/events/slideshow/wide/events_gallery_6.jpg',
-        ],
-        [
-            'small' => '/images/events/slideshow/small/events_gallery_7.jpg',
-            'full' => '/images/events/slideshow/reg/events_gallery_7.jpg',
-            'wide' => '/images/events/slideshow/wide/events_gallery_7.jpg',
-        ],
-        [
-            'small' => '/images/events/slideshow/small/events_gallery_8.jpg',
-            'full' => '/images/events/slideshow/reg/events_gallery_8.jpg',
-            'wide' => '/images/events/slideshow/wide/events_gallery_8.jpg',
-        ],
+//        [
+//            'small' => '/images/events/slideshow/small/events_gallery_6.jpg',
+//            'full' => '/images/events/slideshow/reg/events_gallery_6.jpg',
+//            'wide' => '/images/events/slideshow/wide/events_gallery_6.jpg',
+//        ],
+//        [
+//            'small' => '/images/events/slideshow/small/events_gallery_7.jpg',
+//            'full' => '/images/events/slideshow/reg/events_gallery_7.jpg',
+//            'wide' => '/images/events/slideshow/wide/events_gallery_7.jpg',
+//        ],
+//        [
+//            'small' => '/images/events/slideshow/small/events_gallery_8.jpg',
+//            'full' => '/images/events/slideshow/reg/events_gallery_8.jpg',
+//            'wide' => '/images/events/slideshow/wide/events_gallery_8.jpg',
+//        ],
         [
             'small' => '/images/events/slideshow/small/events_gallery_9.jpg',
             'full' => '/images/events/slideshow/reg/events_gallery_9.jpg',
             'wide' => '/images/events/slideshow/wide/events_gallery_9.jpg',
+        ],
+        [
+            'small' => '/images/events/slideshow/small/events_gallery_10.jpg',
+            'full' => '/images/events/slideshow/reg/events_gallery_10.jpg',
+            'wide' => '/images/events/slideshow/wide/events_gallery_10.jpg',
+        ],
+        [
+            'small' => '/images/events/slideshow/small/events_gallery_11.jpg',
+            'full' => '/images/events/slideshow/reg/events_gallery_11.jpg',
+            'wide' => '/images/events/slideshow/wide/events_gallery_11.jpg',
+        ],
+        [
+            'small' => '/images/events/slideshow/small/events_gallery_12.jpg',
+            'full' => '/images/events/slideshow/reg/events_gallery_12.jpg',
+            'wide' => '/images/events/slideshow/wide/events_gallery_12.jpg',
+        ],
+        [
+            'small' => '/images/events/slideshow/small/events_gallery_13.jpg',
+            'full' => '/images/events/slideshow/reg/events_gallery_13.jpg',
+            'wide' => '/images/events/slideshow/wide/events_gallery_13.jpg',
+        ],
+        [
+            'small' => '/images/events/slideshow/small/events_gallery_14.jpg',
+            'full' => '/images/events/slideshow/reg/events_gallery_14.jpg',
+            'wide' => '/images/events/slideshow/wide/events_gallery_14.jpg',
         ],
     ],
 
