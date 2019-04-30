@@ -46,6 +46,8 @@ View the full documentation at https://tailwindcss.com.
 let colors = {
     'transparent': 'transparent',
 
+    'charcoal': '#22292f',
+
     'purple': '#5d2b46',
     'purple-soft': '#902343',
     'hover-purple': '#902343',

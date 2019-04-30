@@ -1,22 +1,12 @@
-<div class="fixed pin-t w-full flex justify-between items-center h-12 px-4 main-nav bg-purple hover:bg-purple font-medium">
+<div class="fixed pin-t w-full flex justify-between items-center h-12 px-4 main-nav bg-charcoal hover:bg-charcoal font-medium">
     <div>
         <a href="{{ localUrl("/") }}" tabindex="1" class="flex items-center h-12 ml-4">
             @include('svgs.logos.simple')
         </a>
     </div>
-    <nav class="flex justify-end items-stretch font-sans h-12 nav-list bg-purple md:bg-transparent">
+    <nav class="flex justify-end items-stretch font-sans h-12 nav-list bg-charcoal md:bg-transparent">
 
-        <div class="flex items-center my-2 md:my-0 nav-link-box">
-            <a tabindex="2" class="flex items-center nav-link text-white" href="{{ localUrl('/about') }}">{{ trans('navbar.about') }}</a>
-        </div>
-        <div class="flex items-center my-2 md:my-0 nav-link-box">
-            <a class="nav-link text-white" href="{{ localUrl('/menu') }}">
-                {{ trans('navbar.menu') }}
-            </a>
-        </div>
-        <div class="flex items-center my-2 md:my-0 nav-link-box">
-            <a class="flex items-center nav-link text-white" tabindex="4" href="{{ localUrl('/events') }}">{{ trans('navbar.events') }}</a>
-        </div>
+
         <div class="flex items-center my-2 md:my-0 nav-link-box">
             <a class="flex items-center nav-link text-white" tabindex="5" href="{{ localUrl('/journal') }}">{{ trans('navbar.blog') }}</a>
         </div>

@@ -1,1 +1,1 @@
-<section class="section-height home-dish"></section>
+<section class="section-height baked-goods-banner"></section>

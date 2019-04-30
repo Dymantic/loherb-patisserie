@@ -9,16 +9,15 @@ return [
     ],
 
     'banner' => [],
-    'elegance' => [
-        'heading' => 'Elegance & Taste',
-        'content' => 'Loherb Cuisine is a high-end culinary experience where space, elegance and fine food come together to give you a wonderfully unique time. Tucked away away in Yilan, Taiwan, amongst a natural environment that offers splendid views and scenery. We offer a full set menu including breakfast, lunch and our sensational dinner menu, so feel free to visit us at any time of the day.',
-        'link_text' => 'See Menu'
+    'patisserie-souvenir' => [
+        'heading' => 'Patisserie & Souvenir',
+        'content' => 'In Loherb Pâtisserie, the canelé is specially designed by our nutritionist and chefs, reduce oil and sugar and keep the tasty favor, which more in line with modern people\'s demand for healthy food. It is very suitable for wedding favor, baby full month cake, or a souvenir for your special one. ',
     ],
     'dish_banner' => [],
-    'events' => [
-        'heading' => 'Let us host your dream event',
-        'content' => 'Loherb Cuisine is the perfect place to host an event, whether you’re looking for a dream wedding venue, a birthday party, a family reunion or a business function, we’ve got you covered. With ample space and seating for up to 60 people, our diverse menu to suit your needs and a space of natural elegance and sophistication.',
-        'link_text' => 'Book Venue'
+    'gifts' => [
+        'heading' => 'A Special Gift for Your Special One',
+        'content_one' => 'Canelé is a small French pastry flavored with rum and vanilla with a soft and tender custard center and a dark, thick caramelized crust. ',
+        'content_two' => 'Loherb Pâtisserie provides three flavors of Canelé: Classic Vanilla, Uji Matcha, Hazelnut Cocoa. All these canelés are packed with the special gift box that is designed with low environmental load.',
     ],
     'wedding_banner' => [
         'quote' => 'Our wedding was everything we dreamed of',
@@ -29,13 +28,15 @@ return [
         'read_button' => 'Read Now',
         'link_text' => 'See Journal'
     ],
-    'reviews' => [
-        'heading' => 'Reviews'
+
+    'cuisine' => [
+        'heading' => 'Loherb Cuisine',
+        'content' => 'The Loherb Cuisine restaurant offers exceptional food prepared daily. The elegant settings will make your trip that much more memorable and sumptuous.',
+        'link_text' => 'Cuisine Website'
     ],
-    'villa' => [
-        'heading' => 'Loherb Villa',
-        'content' => 'Loherb Villa encompasses our restaurant and offers rooms perfect for couples and families alike. Built for comfort and ambiance, Loherb Villa includes private hot tubs, king size beds, home theater systems and a sky roof.',
-        'link_text' => 'Villa Website'
+    'communicate' => [
+        'heading' => 'Communicate the most precious mind',
+        'content' => 'Sunlight Box does not neglect any detail from content to packaging. In addition to delicious and beautiful, it also emphasizes health and environmental protection, because we hope to convey your happy heart to the most important people and to every corner of the earth.'
     ],
     'instagram' => [
         'heading' => 'Our latest on Instagram',
