@@ -46,7 +46,8 @@ View the full documentation at https://tailwindcss.com.
 let colors = {
     'transparent': 'transparent',
 
-    'charcoal': '#22292f',
+    'charcoal': '#514A49',
+    'charcoal-light': '#A69491',
 
     'purple': '#5d2b46',
     'purple-soft': '#902343',

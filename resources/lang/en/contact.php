@@ -2,14 +2,14 @@
 
 return [
     'seo'=> [
-        'title' => 'Contact Loherb Cuisine',
-        'description' => 'Get in touch with any questions about Loherb Cuisine or book a table',
+        'title' => 'Contact Loherb Patisserie',
+        'description' => 'Get in touch with any questions about Loherb Patisserie or book a gift box.',
     ],
 
 
     'intro' => [
-        'heading' => 'Get in Touch',
-        'content' => 'Please feel free to get in touch with any questions about Loherb Cuisine'
+        'heading' => 'Contact Us',
+        'content' => 'Please contact us to order a gift box or if you have any questions.'
     ],
 
     'form' => [

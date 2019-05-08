@@ -4,8 +4,8 @@ return [
     'title' => 'The home page',
 
     'seo' => [
-        'title' => 'Loherb Cuisine - Healthy Restaurant - Yilan, Taiwan',
-        'description' => 'Fine dining in beautiful surroundings. Breakfast, lunch and dinner is prepared daily in Western and Asian styles. Private events at request.'
+        'title' => 'Loherb Patisserie – Special Souvenir - Yilan, Taiwan',
+        'description' => 'Loherb Pâtisserie\'s, canelé souvenir is very suitable for wedding favor, baby full month cake, or a gift box for your special one.'
     ],
 
     'banner' => [],

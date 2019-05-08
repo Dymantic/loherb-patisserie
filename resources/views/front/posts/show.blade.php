@@ -14,8 +14,8 @@
 
 @section('content')
 <div class="px-4 pt-24 pb-12">
-    <p class="heading-text mb-4 text-brown-dark text-center">{{ $post['title'] }}</p>
-    <p class="font-serif text-brown-light text-center italic">Posted on {{ $post['publish_date_string'] }}</p>
+    <p class="heading-text mb-4 text-charcoal text-center">{{ $post['title'] }}</p>
+    <p class="font-serif text-charcoal-light text-center italic">Posted on {{ $post['publish_date_string'] }}</p>
 </div>
 <div class="max-w-lg mx-auto px-4 py-12">
     <img src="{{ $post['title_image_web'] }}"
@@ -25,20 +25,20 @@
     </div>
 </div>
 <div class="px-4 py-12">
-    <p class="heading-text mb-4 text-purple text-center">{{ trans('blog.show.share_prompt') }}</p>
+    <p class="heading-text mb-4 text-charcoal text-center">{{ trans('blog.show.share_prompt') }}</p>
     <div class="flex justify-center items-center">
-        <a href="https://twitter.com/home?status={{ urlencode($post['title'] . ' ' . Request::url()) }}" class="no-underline text-purple hover:text-purple-soft mx-4">
+        <a href="https://twitter.com/home?status={{ urlencode($post['title'] . ' ' . Request::url()) }}" class="no-underline text-charcoal hover:text-charcoal-light mx-4">
             @include('svgs.social.twitter')
         </a>
-        <a href="https://www.facebook.com/sharer/sharer.php?u={{ urlencode(Request::url()) }}" class="no-underline text-purple hover:text-purple-soft mx-4">
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ urlencode(Request::url()) }}" class="no-underline text-charcoal hover:text-charcoal-light mx-4">
             @include('svgs.social.facebook')
         </a>
-        <a href="mailto:?&subject=Read&body={{ Request::url() }}" class="no-underline text-purple hover:text-purple-soft mx-4">
+        <a href="mailto:?&subject=Read&body={{ Request::url() }}" class="no-underline text-charcoal hover:text-charcoal-light mx-4">
             @include('svgs.social.mail')
         </a>
     </div>
     <div class="text-center mt-12">
-        <a href="{{ localUrl('/journal') }}" class="text-link text-purple hover:text-purple-soft">&larr; {{ trans('blog.show.back_button') }}</a>
+        <a href="{{ localUrl('/journal') }}" class="text-link text-charcoal hover:text-charcoal-light">&larr; {{ trans('blog.show.back_button') }}</a>
     </div>
 </div>
 @endsection

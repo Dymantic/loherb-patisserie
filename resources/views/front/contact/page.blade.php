@@ -13,9 +13,9 @@
 @endsection
 
 @section('content')
-    <div class="h-12 bg-pinky-grey"></div>
+    <div class="h-12 bg-cream-light"></div>
     @component('components.info-section', ['title' => trans('contact.intro.heading')])
-        <p class="text-center text-purple">{{ trans('contact.intro.content') }}</p>
+        <p class="text-center text-charcoal">{{ trans('contact.intro.content') }}</p>
     @endcomponent
     <contact-form class="mt-20" :trans='@json($form_text)'></contact-form>
     <div class="mt-20">

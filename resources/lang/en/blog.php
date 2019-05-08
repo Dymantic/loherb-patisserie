@@ -2,13 +2,13 @@
 
 return [
     'seo' => [
-        'title' => 'The latest news from the Loherb Cuisine kitchen',
-        'description' => 'News and stories from our chef, featuring cuisine, organic living, diet and health.',
+        'title' => 'The latest news from Loherb Patisserie',
+        'description' => 'Read our news and stories featuring dessert, souvenir and gifting culture.',
     ],
 
 
     'index' => [
-        'heading' => 'Chef\'s Journal',
+        'heading' => 'Journal',
         'subheading' => 'Insights and reflections from the Loherb kitchen.',
         'more' => 'More'
     ],
