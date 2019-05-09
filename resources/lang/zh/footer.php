@@ -17,7 +17,7 @@ return [
         'cuisine' => '日光私廚'
     ],
     'links'            => [
-        'book'    => '預約訂位',
+        'book'    => '預定禮盒',
         'about'   => '關於日光',
         'menu'    => '日光菜單',
         'events'  => '節慶活動',

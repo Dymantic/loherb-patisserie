@@ -22,6 +22,6 @@ return [
         'contact' => 'Contact',
         'journal' => 'Journal',
         'events' => 'Events',
-        'book' => 'Book Table'
+        'book' => 'Order Gift Box'
     ]
 ];
