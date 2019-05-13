@@ -6,7 +6,7 @@
 
 @section('head')
     @include('front.partials.ogmeta', [
-        'ogImage' => url('/images/cuisine_facebook.jpg'),
+        'ogImage' => url('/images/patisserie_facebook.jpg'),
         'ogTitle' => trans('contact.seo.title'),
         'ogDescription' => trans('contact.seo.description')
     ])
