@@ -26,6 +26,5 @@
 @endsection
 
 @section('bodyscripts')
-    @include('front.partials.restaurant-jsonld')
-
+{{--    @include('front.partials.restaurant-jsonld')--}}
 @endsection
