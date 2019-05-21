@@ -23,7 +23,7 @@
                     {{--<a class="text-white hover:text-gold mx-4"--}}
                        {{--href="">@include('svgs.social.linkedin')</a>--}}
                     <a class="text-white hover:text-gold mx-4"
-                       href="https://www.facebook.com/LOHERB.TW/">@include('svgs.social.facebook')</a>
+                       href="https://www.facebook.com/LOHERB.TW/">@include('svgs.social.facebook_block')</a>
                     <a class="text-white hover:text-gold mx-4"
                        href="https://www.instagram.com/loherb0301">@include('svgs.social.instagram')</a>
                     <a class="text-white hover:text-gold mx-4"
