@@ -17,7 +17,7 @@ return [
     'gifts' => [
         'heading' => 'A Special Gift for Your Special One',
         'content_one' => 'Canelé is a small French pastry flavored with rum and vanilla with a soft and tender custard center and a dark, thick caramelized crust. ',
-        'content_two' => 'Loherb Pâtisserie provides three flavors of Canelé: Classic Vanilla, Uji Matcha, Hazelnut Cocoa. All these canelés are packed with the special gift box that is designed with low environmental load.',
+        'content_two' => 'Loherb Pâtisserie provides three flavors of Canelé: Gold Classic, Kumquat Berry, Hazelnut Cocoa. All these canelés are packed with the special gift box that is designed with low environmental impact.',
     ],
     'wedding_banner' => [
         'quote' => 'Our wedding was everything we dreamed of',
