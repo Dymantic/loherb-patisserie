@@ -43,10 +43,15 @@
         <div class="flex flex-col items-center w-full md:w-48">
             <p class="text-xl font-medium font-sans text-white tracking-wide uppercase mb-2">{{ trans('footer.contact_heading') }}</p>
             <a class="font-sans tracking-wide no-underline text-white text-base mb-2"
-               href="">service@loherb.com.tw</a>
+               href="mailto:service@loherb.com.tw">service@loherb.com.tw</a>
             <a class="font-sans tracking-wide uppercase no-underline text-white text-base mb-2"
-               href="">+886-3-959-5685</a>
-            <p class="text-center font-sans tracking-wide text-white text-base">{{ trans('footer.address_line_one') }}</p>
+               href="tel:+886-3-959-5685">+886-3-959-5685</a>
+            <p class="text-center font-sans tracking-wide text-white text-base">
+                <a href="https://goo.gl/maps/hruVS5xHAXjfkwqy6"
+                   class="text-white text-base no-underline">
+                    {{ trans('footer.address_line_one') }}
+                </a>
+            </p>
             <p class="text-center font-sans tracking-wide text-white text-base">{{ trans('footer.address_line_two') }}</p>
 
         </div>
