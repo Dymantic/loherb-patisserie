@@ -24,4 +24,10 @@
             @endforeach
         </div>
     </div>
+    <div class="text-center py-12">
+        <a href="{{ localUrl('/archives') }}" class="text-link text-charcoal hover:text-charcoal-light">
+            {{ trans('blog.index.archives-link') }}
+            <span class="arrow">→</span>
+        </a>
+    </div>
 @endsection

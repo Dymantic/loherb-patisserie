@@ -23,6 +23,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
     Route::get('menu/drinks', 'MenuController@drinks');
 
     Route::get('journal', 'BlogController@index');
+    Route::get('archives', 'BlogArchivesController@index');
     Route::get('journal/{slug}', 'BlogController@show');
 
     Route::get('contact', 'ContactController@create');
