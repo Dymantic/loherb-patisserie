@@ -12,6 +12,8 @@ return [
         'subheading' => '為您獻禮最甜心的故事',
         'more' => '發掘更多',
         'archives-link' => '發掘更多',
+        'previous-page' => '上一頁',
+        'next-page' => '下一頁',
     ],
 
     'show' => [

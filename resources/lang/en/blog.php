@@ -12,6 +12,8 @@ return [
         'subheading' => 'Insights and reflections from the Loherb kitchen.',
         'more' => 'More',
         'archives-link' => 'See Archives',
+        'previous-page' => 'Previous Page',
+        'next-page' => 'Next Page',
     ],
 
     'show' => [

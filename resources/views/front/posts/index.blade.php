@@ -17,17 +17,13 @@
         <p class="body-text text-center text-purple">{{ trans('blog.index.subheading') }}</p>
     @endcomponent
 
-    <div class="px-4 py-12">
+    <div class="px-4 pt-12">
         <div class="journal-grid max-w-xl mx-auto">
             @foreach($posts as $post)
                 @include('front.posts.index-card', ['post' => $post])
             @endforeach
         </div>
     </div>
-    <div class="text-center py-12">
-        <a href="{{ localUrl('/archives') }}" class="text-link text-charcoal hover:text-charcoal-light">
-            {{ trans('blog.index.archives-link') }}
-            <span class="arrow">→</span>
-        </a>
-    </div>
+
+    @include('front.posts.pagination')
 @endsection
