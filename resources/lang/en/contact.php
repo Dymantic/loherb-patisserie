@@ -9,7 +9,8 @@ return [
 
     'intro' => [
         'heading' => 'Contact Us',
-        'content' => 'Please contact us to order a gift box or if you have any questions.'
+        'content' => 'Please contact us to order a gift box or if you have any questions.',
+        'service_times' => 'Customer service is available from 08:00 to 20:00.',
     ],
 
     'form' => [

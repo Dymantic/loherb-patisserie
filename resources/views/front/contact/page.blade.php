@@ -16,6 +16,7 @@
     <div class="h-12 bg-cream-light"></div>
     @component('components.info-section', ['title' => trans('contact.intro.heading')])
         <p class="text-center text-charcoal">{{ trans('contact.intro.content') }}</p>
+        <p class="mt-6 text-center text-charcoal">{{ trans('contact.intro.service_times') }}</p>
     @endcomponent
     <contact-form class="mt-20" :trans='@json($form_text)'></contact-form>
     <div class="mt-20">
