@@ -4,11 +4,16 @@
         @foreach($instagrams->take(8)->chunk(4) as $row)
             <div class="max-w-xl mx-auto flex-wrap md:flex-no-wrap justify-center w-full flex">
             @foreach($row as $instagram)
-                    <div class="instagram-image-box">
-                        <img src="{{ $instagram['standard'] }}"
-                             alt="">
-                    </div>
-                @endforeach
+                <div class="instagram-image-box">
+                    @if($instagram['standard'] ?? false)
+                    <img src="{{ $instagram['standard'] }}"
+                         alt="">
+                    @else
+                    <img src="{{ $instagram['url'] }}"
+                         alt="from Instagram">
+                    @endif
+                </div>
+            @endforeach
             </div>
         @endforeach
     </div>
