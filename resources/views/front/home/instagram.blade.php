@@ -5,7 +5,7 @@
             <div class="max-w-xl mx-auto flex-wrap md:flex-no-wrap justify-center w-full flex">
             @foreach($row as $instagram)
                 <div class="instagram-image-box">
-                    <img src="{{ $instagram['url'] }}"
+                    <img data-src="{{ $instagram['url'] }}" class="lazyload"
                          alt="from Instagram">
                 </div>
             @endforeach

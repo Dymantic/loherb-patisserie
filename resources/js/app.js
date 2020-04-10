@@ -8,6 +8,7 @@ import throttle from "lodash.throttle";
 
 require('./bootstrap');
 // import "flickity";
+import "lazysizes";
 import "flickity-imagesloaded";
 import jump from "jump.js";
 const Vue = require('vue');
