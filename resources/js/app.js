@@ -71,3 +71,6 @@ if(document.querySelector('[data-banner-jump]')) {
         jump('.post-banner', {offset: -48});
     });
 }
+
+import HolyScroller from "./HolyScroller";
+window.HolyScroller = HolyScroller;
