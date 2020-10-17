@@ -4,7 +4,7 @@ return [
     'title' => 'The home page',
 
     'seo' => [
-        'title' => 'Loherb Patisserie – Special Souvenir - Yilan, Taiwan',
+        'title' => 'Loherb Patisserie – Yilan Landscape Cafe in Taiwan',
         'description' => 'Loherb Pâtisserie\'s, canelé souvenir is very suitable for wedding favor, baby full month cake, or a gift box for your special one.'
     ],
 
