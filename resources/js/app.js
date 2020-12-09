@@ -11,17 +11,12 @@ require('./bootstrap');
 import "lazysizes";
 import "flickity-imagesloaded";
 import jump from "jump.js";
-const Vue = require('vue');
-Vue.component('contact-form', require('./components/ContactForm'));
+import Vue from "vue"
+import ContactForm from './components/ContactForm';
 
 
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
 
-// Vue.component('contact-form', require('./components/ContactForm'));
+Vue.component("contact-form", ContactForm);
 
 const app = new Vue({
     el: '#app'
