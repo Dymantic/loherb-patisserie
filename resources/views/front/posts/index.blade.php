@@ -18,7 +18,7 @@
     @endcomponent
 
     <div class="px-4 pt-12">
-        <div class="journal-grid max-w-xl mx-auto">
+        <div class="journal-grid max-w-5xl mx-auto">
             @foreach($posts as $post)
                 @include('front.posts.index-card', ['post' => $post])
             @endforeach

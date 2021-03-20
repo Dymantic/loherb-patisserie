@@ -1,10 +1,10 @@
-<div class="fixed pin-t w-full flex justify-between items-center h-12 px-4 main-nav bg-charcoal hover:bg-charcoal font-medium">
+<div class="fixed top-0 left-0 w-full flex justify-between items-center h-12 px-4 main-nav bg-charcoal hover:bg-charcoal font-medium">
     <div>
         <a href="{{ localUrl("/") }}" tabindex="1" class="flex items-center h-12 ml-4">
             @include('svgs.logos.simple')
         </a>
     </div>
-    <nav class="flex justify-end items-stretch font-sans h-12 nav-list bg-charcoal md:bg-transparent">
+    <nav class="flex justify-end items-stretch type-a1 h-12 nav-list bg-charcoal md:bg-transparent">
 
 
         <div class="flex items-center my-2 md:my-0 nav-link-box">
