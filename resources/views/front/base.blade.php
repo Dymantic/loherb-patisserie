@@ -8,6 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="alternate" hreflang="{{ app()->getLocale() === 'en' ? 'zh' : 'en' }}" href="{{ url(transUrl(Request::path())) }}">
 
+    @if(app()->getLocale() === 'en')
+        <link rel="stylesheet" href="https://use.typekit.net/mza6wie.css">
+    @else
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;800&family=Noto+Serif+TC:wght@600&display=swap" rel="stylesheet">
+    @endif
+
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -35,6 +42,7 @@
 
     @yield('head')
     <meta name="format-detection" content="telephone=no">
+    @stack('headspace')
 </head>
 
 <body class="type-b1 leading-normal {{ $bodyClass ?? '' }}">

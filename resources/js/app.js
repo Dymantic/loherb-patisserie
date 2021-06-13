@@ -14,7 +14,7 @@ import jump from "jump.js";
 import Vue from "vue"
 import ContactForm from './components/ContactForm';
 
-
+import Usher from "./Usher";
 
 Vue.component("contact-form", ContactForm);
 
@@ -49,6 +49,8 @@ window.addEventListener('DOMContentLoaded', () => {
             el.scrollLeft = (el.scrollWidth / 2) - (window.innerWidth / 2);
         }
     });
+
+    const usher = new Usher();
 });
 
 [...document.querySelectorAll('[data-jump-target]')].forEach(e => {

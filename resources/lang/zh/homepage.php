@@ -70,7 +70,7 @@ return [
         'content' => '日光寶盒從內容到包裝不忽略任何一個細節，除了美味美觀外，也講求健康環保，因為我們希冀把您幸福的心，一起傳達到最重要的人手中，也傳達到地球每個角落。'
     ],
     'instagram' => [
-        'heading' => 'Instagram的最新消息',
+        'heading' => 'Instagram<br class="md:hidden">的最新消息',
         'link_text' => '追蹤我們'
     ]
 ];

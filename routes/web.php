@@ -24,6 +24,8 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
 
     Route::get('journal', 'BlogController@index');
     Route::get('archives', 'BlogArchivesController@index');
+
+    Route::get('journal/category/{category:slug}', 'BlogCategoriesController@show');
     Route::get('journal/{slug}', 'BlogController@show');
 
     Route::get('contact', 'ContactController@create');

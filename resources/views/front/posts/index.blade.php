@@ -13,9 +13,11 @@
 @endsection
 
 @section('content')
-    @component('components.info-section', ['title' => trans('blog.index.heading')])
-        <p class="body-text text-center text-purple">{{ trans('blog.index.subheading') }}</p>
+    @component('components.info-section', ['title' => $page_title ?? trans('blog.index.heading')])
+        <p class="body-text text-center text-purple">{{ $page_intro ?? trans('blog.index.subheading') }}</p>
     @endcomponent
+
+    <x-blog-subnav current="{{ Request::path() }}"></x-blog-subnav>
 
     <div class="px-4 pt-12">
         <div class="journal-grid max-w-5xl mx-auto">
