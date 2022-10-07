@@ -61,12 +61,17 @@
 </div>
 @yield('bodyscripts')
 <script src="{{ mix("js/app.js") }}"></script>
-@include('front.partials.facebook-sdk')
-<script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', '{{ config('services.google.analytics') }}', 'auto'); ga('send', 'pageview')
-</script>
-<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+@production
+    @include('front.partials.facebook-sdk')
+    @include('front.partials.fb-pixel')
+    <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', '{{ config('services.google.analytics') }}', 'auto'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+@endproduction
+
 </body>
 
 </html>
