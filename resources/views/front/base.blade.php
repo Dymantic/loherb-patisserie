@@ -43,13 +43,14 @@
     @yield('head')
     <meta name="format-detection" content="telephone=no">
     @stack('headspace')
+    @include('front.partials.gtm_head')
 </head>
 
 <body class="type-b1 leading-normal {{ $bodyClass ?? '' }}">
 <!--[if lte IE 9]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
-
+@include('front.partials.gtm_body')
 
 <div id="app">
     @yield('content')
